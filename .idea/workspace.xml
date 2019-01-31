@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Timi/Timi_2/ordering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/Part_2/natural.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/Part_2/sum_of_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/Part_4/the_zoo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/solutions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +18,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordering.coverage" NAME="ordering Coverage Results" MODIFIED="1547588241680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$1.coverage" NAME="1 Coverage Results" MODIFIED="1547070508664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$sum_of_list.coverage" NAME="sum_of_list Coverage Results" MODIFIED="1548926585881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$2.coverage" NAME="2 Coverage Results" MODIFIED="1548924009790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$multiplication.coverage" NAME="multiplication Coverage Results" MODIFIED="1547560639883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordered_insertion.coverage" NAME="ordered_insertion Coverage Results" MODIFIED="1547583157169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$change_ix.coverage" NAME="change_ix Coverage Results" MODIFIED="1547562881610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordering.coverage" NAME="ordering Coverage Results" MODIFIED="1547588241680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Tile_Traveler.coverage" NAME="Tile_Traveler Coverage Results" MODIFIED="1547556895712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$random.coverage" NAME="random Coverage Results" MODIFIED="1547561041155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$swithc.coverage" NAME="swithc Coverage Results" MODIFIED="1547566297230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$multiplication.coverage" NAME="multiplication Coverage Results" MODIFIED="1547560639883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$the_zoo.coverage" NAME="the_zoo Coverage Results" MODIFIED="1548931792116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_4" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$natural.coverage" NAME="natural Coverage Results" MODIFIED="1548934233605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$list_print.coverage" NAME="list_print Coverage Results" MODIFIED="1547561929917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$power.coverage" NAME="power Coverage Results" MODIFIED="1547560088295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordered_insertion.coverage" NAME="ordered_insertion Coverage Results" MODIFIED="1547583157169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$change_ix.coverage" NAME="change_ix Coverage Results" MODIFIED="1547562881610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$dynamic_arr.coverage" NAME="dynamic_arr Coverage Results" MODIFIED="1548927682085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/part_3" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1329573753">
@@ -65,101 +76,39 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="352" />
+          <entry key="py" value="4671" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="352" />
+          <entry key="Python" value="4671" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/power.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/multiplication.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/list_ix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/list_print.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/change_ix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/swithc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/ordered_insertion.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Timi/Timi_2/ordering.py">
+        <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/solutions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -180,7 +129,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/1.py" />
-        <option value="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py" />
         <option value="$PROJECT_DIR$/Timi/11.py" />
         <option value="$PROJECT_DIR$/Timi/save.csv" />
         <option value="$PROJECT_DIR$/Timi/Tile_Traveler.py" />
@@ -193,6 +141,13 @@
         <option value="$PROJECT_DIR$/Timi/Timi_2/swithc.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_2/ordered_insertion.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_2/ordering.py" />
+        <option value="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py" />
+        <option value="$PROJECT_DIR$/Test/Hlutaprof/recursion.py" />
+        <option value="$PROJECT_DIR$/Test/Hlutaprof/Part_2/sum_of_list.py" />
+        <option value="$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py" />
+        <option value="$PROJECT_DIR$/Test/Hlutaprof/Part_4/the_zoo.py" />
+        <option value="$PROJECT_DIR$/Test/Hlutaprof/Part_2/natural.py" />
+        <option value="$PROJECT_DIR$/Test/Hlutaprof/solutions.py" />
       </list>
     </option>
   </component>
@@ -203,9 +158,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
     <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -225,18 +179,27 @@
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structures and Algorithms in Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="Timi" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="Timi" type="462c0819:PsiDirectoryNode" />
-              <item name="Timi_2" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof" type="462c0819:PsiDirectoryNode" />
+              <item name="Part_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof" type="462c0819:PsiDirectoryNode" />
+              <item name="part_3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,8 +231,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ordering">
-    <configuration name="change_ix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.natural">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,12 +240,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_2/change_ix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +254,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="list_print" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dynamic_arr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,12 +262,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/Hlutaprof/part_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_2/list_print.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ordered_insertion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="natural" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,12 +284,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_2/ordered_insertion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Hlutaprof/Part_2/natural.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +298,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ordering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sum_of_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,12 +306,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_2/ordering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Hlutaprof/Part_2/sum_of_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,7 +320,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="swithc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="the_zoo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -365,12 +328,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/Hlutaprof/Part_4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_2/swithc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Hlutaprof/Part_4/the_zoo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -380,19 +343,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.list_print" />
-      <item itemvalue="Python.change_ix" />
-      <item itemvalue="Python.swithc" />
-      <item itemvalue="Python.ordered_insertion" />
-      <item itemvalue="Python.ordering" />
+      <item itemvalue="Python.2" />
+      <item itemvalue="Python.natural" />
+      <item itemvalue="Python.sum_of_list" />
+      <item itemvalue="Python.dynamic_arr" />
+      <item itemvalue="Python.the_zoo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ordering" />
-        <item itemvalue="Python.ordered_insertion" />
-        <item itemvalue="Python.swithc" />
-        <item itemvalue="Python.change_ix" />
-        <item itemvalue="Python.list_print" />
+        <item itemvalue="Python.natural" />
+        <item itemvalue="Python.the_zoo" />
+        <item itemvalue="Python.dynamic_arr" />
+        <item itemvalue="Python.sum_of_list" />
+        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -411,8 +374,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17718121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12818792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -432,7 +396,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" weight="0.42684564" />
+      <window_info anchor="right" id="Run" order="5" weight="0.40469798" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,20 +406,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Timi/Timi_1/11.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -471,10 +421,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Timi/Timi_1/save.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Timi/Timi_2/power.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,14 +471,73 @@
     <entry file="file://$PROJECT_DIR$/Timi/Timi_2/ordered_insertion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Timi/Timi_2/ordering.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_4/binary_search.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/Part_4/the_zoo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/Part_2/sum_of_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/Part_2/natural.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/solutions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
