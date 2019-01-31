@@ -1,6 +1,9 @@
 def is_even(n):
-    if n 
+    if n % 2 == 0:
+        return True
+    else:
+        return False
 
 
 num = int(input("n: "))
-is_even(num)
+print(is_even(num))
