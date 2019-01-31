@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/Part_2/natural.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/Part_2/sum_of_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/Part_4/the_zoo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/Hlutaprof/solutions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1/2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +67,12 @@
     <session id="-1738446097">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/solutions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -374,9 +369,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -499,13 +493,7 @@
     <entry file="file://$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_4/binary_search.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/recursion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/recursion.py" />
     <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -537,7 +525,7 @@
     <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/solutions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
