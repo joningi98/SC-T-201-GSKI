@@ -6,6 +6,10 @@ class NotFound(Exception):
     pass
 
 
+class Empty(Exception):
+    pass
+
+
 class ArrayList:
     def __init__(self):
         self.size = 0
@@ -53,6 +57,8 @@ class ArrayList:
 
     # Time complexity: O(1) - constant time
     def get_first(self):
+        if self.size == 0:
+            raise Empty()
         return self.data[0]
 
     # Time complexity: O(1) - constant time
@@ -63,7 +69,10 @@ class ArrayList:
 
     # Time complexity: O(1) - constant time
     def get_last(self):
-        return self.data[self.size - 1]
+        if self.size == 0:
+            raise Empty()
+        else:
+            return self.data[self.size - 1]
 
     # Time complexity: O(n) - linear time in size of list
     def resize(self):
@@ -96,33 +105,6 @@ class ArrayList:
     # Time complexity: O(n^2) - quadratic time in size of list
     # Time complexity: O(n log n) - linear times logarythmic time in size of list
     def sort(self):
-        def real_sort(my_list):
-
-            result = []
-            if len(my_list) < 2:
-                return my_list
-            mid = int(len(my_list) / 2)
-            y = real_sort(my_list[:mid])
-            z = real_sort(my_list[mid:])
-            while (len(y) > 0) or (len(z) > 0):
-                if len(y) > 0 and len(z) > 0:
-                    if ord(y[0]) > ord(z[0]):
-                        result.append(z[0])
-                        z.pop(0)
-                    else:
-                        result.append(y[0])
-                        y.pop(0)
-                elif len(z) > 0:
-                    for i in z:
-                        result.append(i)
-                        z.pop(0)
-                else:
-                    for i in y:
-                        result.append(i)
-                        y.pop(0)
-            return result
-        self.data = real_sort(self.data)
-
         # TODO: remove 'pass' and implement functionality
         pass
 
@@ -137,29 +119,3 @@ class ArrayList:
     def remove_value(self, value):
         # TODO: remove 'pass' and implement functionality
         pass
-
-    @staticmethod
-    def length(my_list):
-        count = 0
-        for _ in enumerate(my_list):
-            count += 1
-        return count
-
-
-
-
-
-print("SOME STRING TESTS:")
-arr_lis = ArrayList()
-arr_lis.append("c")
-arr_lis.append("e")
-arr_lis.append("d")
-arr_lis.print()
-arr_lis.append("i")
-arr_lis.append("h")
-arr_lis.append("g")
-arr_lis.print()
-arr_lis.append("m")
-arr_lis.append("o")
-arr_lis.append("n")
-arr_lis.print()

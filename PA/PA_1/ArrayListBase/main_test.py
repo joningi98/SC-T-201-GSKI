@@ -1,6 +1,4 @@
 from PA.PA_1.ArrayListBase.array_list import *
-import PA.PA_1.ArrayListBase.array_list
-
 # Bunch of tests - please make your own :)
 # also, please make your own test output
 # clearer than this is.  It helps!!
@@ -24,6 +22,8 @@ arr_lis.print()
 # print(arr_lis.arr)
 try:
     print(arr_lis.get_first())
+except Empty:
+    print("The list is empty")
 except IndexOutOfBounds:
     print("Index out of bounds")
 try:
@@ -40,6 +40,8 @@ except IndexOutOfBounds:
     print("Index out of bounds")
 try:
     print(arr_lis.get_last())
+except Empty:
+    print("The list is empty")
 except IndexOutOfBounds:
     print("Index out of bounds")
 arr_lis.print()
@@ -71,6 +73,23 @@ print("Clearing list")
 arr_lis.clear()
 print("list after clearing:")
 arr_lis.print()
+try:
+    print(arr_lis.get_first())
+except Empty:
+    print("The list is empty")
+except IndexOutOfBounds:
+    print("Index out of bounds")
+try:
+    print(arr_lis.get_last())
+except Empty:
+    print("The list is empty")
+except IndexOutOfBounds:
+    print("Index out of bounds")
+try:
+    print(arr_lis.get_at(0))
+except IndexOutOfBounds:
+    print("Index out of bounds")
+
 
 print("SOME INTEGER TESTS:")
 arr_lis = ArrayList()
@@ -86,11 +105,10 @@ arr_lis.append(13)
 arr_lis.append(15)
 arr_lis.append(14)
 arr_lis.print()
-# print(arr_lis.size)
-# print(arr_lis.capacity)
-# print(arr_lis.arr)
 try:
     print(arr_lis.get_first())
+except Empty:
+    print("The list is empty")
 except IndexOutOfBounds:
     print("Index out of bounds")
 try:
@@ -107,6 +125,8 @@ except IndexOutOfBounds:
     print("Index out of bounds")
 try:
     print(arr_lis.get_last())
+except Empty:
+    print("The list is empty")
 except IndexOutOfBounds:
     print("Index out of bounds")
 arr_lis.print()
