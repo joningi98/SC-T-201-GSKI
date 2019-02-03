@@ -1,10 +1,10 @@
-
 import random
 from random import Random
 
-def write_test_line(f, r, c, clear, o = 0):
+
+def write_test_line(f, r, c, clear, o=0):
     f.write("\n")
-    if(o == 0):
+    if (o == 0):
         if clear == 0:
             o = r.randint(1, 8)
         elif clear == 1:
@@ -55,6 +55,7 @@ def write_test_line(f, r, c, clear, o = 0):
 
     return c
 
+
 def write_insert_ordered_line(f, r, c):
     f.write("\n")
     f.write("insert_ordered")
@@ -63,10 +64,12 @@ def write_insert_ordered_line(f, r, c):
     c += 1
     return c
 
+
 def write_sort_line(f, r, c):
     f.write("\n")
     f.write("sort")
     return c
+
 
 def write_find_line(f, r, c):
     f.write("\n")
@@ -75,6 +78,7 @@ def write_find_line(f, r, c):
     f.write(str(r.randint(10, 30)))
     return c
 
+
 def write_remove_value_line(f, r, c):
     f.write("\n")
     f.write("remove_value")
@@ -82,6 +86,7 @@ def write_remove_value_line(f, r, c):
     f.write(str(r.randint(10, 30)))
     c -= 1
     return c
+
 
 r = Random()
 

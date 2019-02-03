@@ -1,7 +1,9 @@
-import array_list
-from array_list import *
+from PA.PA_1.ArrayListTests.ArrayListTests.array_list import *
 import sys
 import shlex
+
+arr_lis = ArrayList()
+
 
 class MyClass:
     def __init__(self, number, name, data):
@@ -12,9 +14,11 @@ class MyClass:
     def __str__(self):
         return "{" + self.name + " number " + str(self.number) + ": " + str(self.data) + "}"
 
+
 def print_list(arr_lis):
-    print("current list:", end = " ")
+    print("current list:", end=" ")
     arr_lis.print()
+
 
 def get_as_correct_type(value, type):
     if type == 'string':
