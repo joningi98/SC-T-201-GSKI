@@ -1,4 +1,3 @@
-
 class Tokenizer:
     def __init__(self, str_statement):
         self.statement = str_statement

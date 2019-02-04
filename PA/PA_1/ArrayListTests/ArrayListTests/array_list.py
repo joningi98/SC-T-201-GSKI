@@ -119,15 +119,27 @@ class ArrayList:
     # Time complexity: O(n^2) - quadratic time in size of list
     # Time complexity: O(n log n) - linear times logarythmic time in size of list
     def sort(self):
-        tmp = self._data[:self._size]
-        tmp.sort()
-        self._data = tmp + (len(self._data) - len(tmp)) * [0]
-        self._sorted = True
-        # TODO: remove 'pass' and implement functionality
+        for x in range(self._size):
+            minimum = x
+
+            for y in range(x + 1, self._size):
+                if self._data[y] < self._data[minimum]:
+                    minimum = y
+
+            self._data[minimum], self._data[x] = self._data[x], self._data[minimum]
+
+    @staticmethod
+    def count(my_list):
+        count = 0
+        for _ in enumerate(my_list):
+            count += 1
+        return count
 
     def binary_search(self, low, high, target, failure=True):
         size = high - low
         mid = size // 2
+        if size % 2 == 1:
+            mid += 1
         if low >= high:
             if failure:
                 raise NotFound
@@ -136,7 +148,7 @@ class ArrayList:
         if target > self._data[low + mid]:
             return self.binary_search(low + (size + 1) // 2, high, target, failure=failure)
         elif target < self._data[low + mid]:
-            return self.binary_search(low, high - (size+1) // 2, target, failure=failure)
+            return self.binary_search(low, high - (size + 1) // 2, target, failure=failure)
         return low + mid
 
     # Time complexity: O(n) - linear time in size of list
@@ -147,14 +159,31 @@ class ArrayList:
             return index
         else:
             for ix in range(self._size):
-                print(self._data[ix], value)
                 if self._data[ix] == value:
                     return ix
-            raise NotFound
+        raise NotFound
 
     # Time complexity: O(n) - linear time in size of list
     # Time complexity: O(log n) - logarythmic time in size of list
     def remove_value(self, value):
-        ix = self.find(value)
-        self.remove_at(ix)
+        try:
+            ix = self.find(value)
+            self.remove_at(ix)
+        except NotFound:
+            pass
 
+
+arr = ArrayList()
+
+arr.append(10)
+arr.append(10)
+arr.append(11)
+arr.append(11)
+arr.append(13)
+arr.append(13)
+arr.append(13)
+arr.append(15)
+
+arr.print()
+
+print(arr.find(13))
