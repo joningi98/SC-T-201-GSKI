@@ -12,131 +12,149 @@ class Empty(Exception):
 
 class ArrayList:
     def __init__(self):
-        self.size = 0
-        self.capacity = 4
-        self.data = [0] * self.capacity
+        self._size = 0
+        self._capacity = 4
+        self._data = [0] * self._capacity
+        self._sorted = True
 
     # Time complexity: O(n) - linear time in size of list
     def print(self):
-        for ix in range(self.size):
-            if ix == self.size - 1:
-                print("{}".format(self.data[ix]), end="")
+        for ix in range(self._size):
+            if ix == self._size - 1:
+                print("{}".format(self._data[ix]), end="")
             else:
-                print("{}, ".format(self.data[ix]), end="")
+                print("{}, ".format(self._data[ix]), end="")
         print()
 
     # Time complexity: O(n) - linear time in size of list
     def prepend(self, value):
-        if self.size == self.capacity:
+        self._sorted = False
+        if self._size == self._capacity:
             self.resize()
-        temp = [None] * self.capacity
-        self.size += 1
-        for ix in range(self.size - 1):
-            temp[ix + 1] = self.data[ix]
+        temp = [0] * self._capacity
+        self._size += 1
+        for ix in range(self._size - 1):
+            temp[ix + 1] = self._data[ix]
         temp[0] = value
-        self.data = temp
+        self._data = temp
 
     # Time complexity: O(n) - linear time in size of list
     def insert(self, value, index):
-        if index <= self.size:
-            if self.size == self.capacity:
+        self._sorted = False
+        if self._size >= index >= 0:
+            if self._size == self._capacity:
                 self.resize()
-            self.size += 1
-            temp = self.data
-            for ix in range(self.size - 1, index, -1):
-                temp[ix] = self.data[ix - 1]
-            temp[index] = value
-            self.data = temp
+            self._size += 1
+            for ix in range(self._size - 1, index, -1):
+                self._data[ix] = self._data[ix - 1]
+            self._data[index] = value
 
     # Time complexity: O(1) - constant time
     def append(self, value):
-        if self.size == self.capacity:
+        self._sorted = False
+        if self._size == self._capacity:
             self.resize()
-        self.data[self.size] = value
-        self.size += 1
+        self._data[self._size] = value
+        self._size += 1
 
     # Time complexity: O(1) - constant time
     def set_at(self, value, index):
-        if index <= self.size - 1:
-            self.data[index] = value
+        self._sorted = False
+        if index <= self._size - 1:
+            self._data[index] = value
 
     # Time complexity: O(1) - constant time
     def get_first(self):
-        if self.size == 0:
+        if self._size == 0:
             raise Empty()
-        return self.data[0]
+        return self._data[0]
 
     # Time complexity: O(1) - constant time
     def get_at(self, index):
-        if index <= self.size - 1:
-            return self.data[index]
+        if self._size - 1 >= index >= 0:
+            return self._data[index]
         raise IndexOutOfBounds
 
     # Time complexity: O(1) - constant time
     def get_last(self):
-        if self.size == 0:
+        if self._size == 0:
             raise Empty()
         else:
-            return self.data[self.size - 1]
+            return self._data[self._size - 1]
 
     # Time complexity: O(n) - linear time in size of list
     def resize(self):
-        self.capacity *= 2
-        new_list = ([0] * self.capacity)
-        for ix in range(self.size):
-            new_list[ix] = self.data[ix]
-        self.data = new_list
+        self._capacity *= 2
+        new_list = ([0] * self._capacity)
+        for ix in range(self._size):
+            new_list[ix] = self._data[ix]
+        self._data = new_list
 
     # Time complexity: O(n) - linear time in size of list
     def remove_at(self, index):
-        if index <= self.size - 1:
-            temp = [x for x in self.data]
-            for ix in range(self.size, index - 1, -1):
-                self.data[ix] = temp[ix + 1]
-            self.size -= 1
+        if self._size - 1 >= index >= 0:
+            for ix in range(index, self._size - 1):
+                self._data[ix] = self._data[ix+1]
+            self._size -= 1
 
     # Time complexity: O(1) - constant time
     def clear(self):
-        self.size = 0
-        self.capacity = 4
-        self.data = [0] * self.capacity
+        self._sorted = True
+        self._size = 0
+        self._capacity = 4
+        self._data = [0] * self._capacity
 
     # Time complexity: O(n) - linear time in size of list
     # Time complexity: O(log n) - logarythmic time in size of list
     def insert_ordered(self, value):
-        # TODO: remove 'pass' and implement functionality
-        pass
+        if self._size == 0:
+            self.append(value)
+        elif not self._sorted:
+            self.append(value)
+            self.sort()
+        else:
+            ix = self.binary_search(0, self._size, value, failure=False)
+            self.insert(value, ix)
 
     # Time complexity: O(n^2) - quadratic time in size of list
     # Time complexity: O(n log n) - linear times logarythmic time in size of list
     def sort(self):
+        tmp = self._data[:self._size]
+        tmp.sort()
+        self._data = tmp + (len(self._data) - len(tmp)) * [0]
+        self._sorted = True
         # TODO: remove 'pass' and implement functionality
-        pass
+
+    def binary_search(self, low, high, target, failure=True):
+        size = high - low
+        mid = size // 2
+        if low >= high:
+            if failure:
+                raise NotFound
+            else:
+                return mid + low
+        if target > self._data[low + mid]:
+            return self.binary_search(low + (size + 1) // 2, high, target, failure=failure)
+        elif target < self._data[low + mid]:
+            return self.binary_search(low, high - (size+1) // 2, target, failure=failure)
+        return low + mid
 
     # Time complexity: O(n) - linear time in size of list
     # Time complexity: O(log n) - logarythmic time in size of list
     def find(self, value):
-        # TODO: remove 'pass' and implement functionality
-        pass
+        if self._sorted:
+            index = self.binary_search(0, self._size, value)
+            return index
+        else:
+            for ix in range(self._size):
+                print(self._data[ix], value)
+                if self._data[ix] == value:
+                    return ix
+            raise NotFound
 
     # Time complexity: O(n) - linear time in size of list
     # Time complexity: O(log n) - logarythmic time in size of list
     def remove_value(self, value):
-        # TODO: remove 'pass' and implement functionality
-        pass
+        ix = self.find(value)
+        self.remove_at(ix)
 
-
-arr_list = ArrayList()
-
-# 31, 99, 38, 25, 27, 41, 61
-
-arr_list.append(31)
-arr_list.append(99)
-arr_list.append(38)
-arr_list.append(25)
-arr_list.append(27)
-arr_list.append(41)
-arr_list.append(61)
-arr_list.remove_at(1)
-
-arr_list.print()
