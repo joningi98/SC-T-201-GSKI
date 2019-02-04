@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Timi/Timi_5/merge_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/extra_tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/extra_tests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase (1)/PrefixParserBase/expected_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/expected_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase (1)/PrefixParserBase/main_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase (1)/PrefixParserBase/prefix_statements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/prefix_statements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase (1)/PrefixParserBase/tokenizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +18,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$compare_output.coverage" NAME="compare_output Coverage Results" MODIFIED="1549288575208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$compare_output.coverage" NAME="compare_output Coverage Results" MODIFIED="1549299301209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$1.coverage" NAME="1 Coverage Results" MODIFIED="1547070508664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$sum_of_list.coverage" NAME="sum_of_list Coverage Results" MODIFIED="1548926585881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_program.coverage" NAME="main_program Coverage Results" MODIFIED="1549305626363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/PrefixParserBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$2.coverage" NAME="2 Coverage Results" MODIFIED="1548924009790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$multiplication.coverage" NAME="multiplication Coverage Results" MODIFIED="1547560639883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_create_tests.coverage" NAME="main_create_tests Coverage Results" MODIFIED="1549280281197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$array_list.coverage" NAME="array_list Coverage Results" MODIFIED="1549286205179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$array_list.coverage" NAME="array_list Coverage Results" MODIFIED="1549304492270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordered_insertion.coverage" NAME="ordered_insertion Coverage Results" MODIFIED="1547583157169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$change_ix.coverage" NAME="change_ix Coverage Results" MODIFIED="1547562881610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordering.coverage" NAME="ordering Coverage Results" MODIFIED="1547588241680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
@@ -35,7 +38,7 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$list_print.coverage" NAME="list_print Coverage Results" MODIFIED="1547561929917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$power.coverage" NAME="power Coverage Results" MODIFIED="1547560088295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$dynamic_arr.coverage" NAME="dynamic_arr Coverage Results" MODIFIED="1548927682085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/part_3" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_test__1_.coverage" NAME="main_test (1) Coverage Results" MODIFIED="1549288818883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_test__1_.coverage" NAME="main_test (1) Coverage Results" MODIFIED="1549299294499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1329573753">
@@ -88,81 +91,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="32" />
-          <entry key="txt" value="15" />
+          <entry key="py" value="37" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="32" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="8620" />
+          <entry key="py" value="9311" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="8620" />
+          <entry key="Python" value="9311" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="149" column="43" selection-start-line="149" selection-start-column="43" selection-end-line="149" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="2763" selection-start-line="2763" selection-end-line="2763" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt">
+        <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/expected_output.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#1#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/compare_output.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/expected_out.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="2905" column="136" lean-forward="true" selection-start-line="2905" selection-start-column="14" selection-end-line="2905" selection-end-column="136" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/prefix_statements.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -208,6 +182,9 @@
         <option value="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_5/merge_sort.py" />
         <option value="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py" />
+        <option value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase (1)/PrefixParserBase/main_program.py" />
+        <option value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py" />
+        <option value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py" />
       </list>
     </option>
   </component>
@@ -252,15 +229,7 @@
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
               <item name="PA" type="462c0819:PsiDirectoryNode" />
               <item name="PA_1" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayListTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_1" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayListTests" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrayListTests" type="462c0819:PsiDirectoryNode" />
+              <item name="PrefixParserBase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
@@ -288,6 +257,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_1" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_1\ArrayListBase" />
       <recent name="C:\Users\Jón Ingi\PycharmProjects\SC-T-201-GSKI\Timi\Timi_1" />
     </key>
@@ -304,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main_test (1)">
+  <component name="RunManager" selected="Python.main_program">
     <configuration name="array_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,6 +341,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main_program" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-201-GSKI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -393,42 +385,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-201-GSKI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_1/ArrayListBase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_1/ArrayListBase/main_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.main_test" />
       <item itemvalue="Python.main_test (1)" />
       <item itemvalue="Python.main_create_tests" />
       <item itemvalue="Python.compare_output" />
       <item itemvalue="Python.array_list" />
+      <item itemvalue="Python.main_program" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_test (1)" />
-        <item itemvalue="Python.compare_output" />
+        <item itemvalue="Python.main_program" />
         <item itemvalue="Python.array_list" />
+        <item itemvalue="Python.compare_output" />
+        <item itemvalue="Python.main_test (1)" />
         <item itemvalue="Python.main_create_tests" />
-        <item itemvalue="Python.main_test" />
       </list>
     </recent_temporary>
   </component>
@@ -447,9 +417,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1147651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15503356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -469,7 +438,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.3966443" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.36174497" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1147651" />
@@ -500,17 +469,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py</url>
-          <line>157</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Timi/Timi_1/11.py">
@@ -698,46 +656,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/compare_output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/expected_out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="2905" column="136" lean-forward="true" selection-start-line="2905" selection-start-column="14" selection-end-line="2905" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="2763" selection-start-line="2763" selection-end-line="2763" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="113">
+          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
           <folding>
             <element signature="e#1#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py">
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/compare_output.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="149" column="43" selection-start-line="149" selection-start-column="43" selection-end-line="149" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="188" column="19" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="3034" column="56" selection-start-line="3034" selection-start-column="14" selection-end-line="3034" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/expected_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="3034" column="32" selection-start-line="3034" selection-start-column="32" selection-end-line="3034" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/prefix_statements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/main_program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" selection-start-line="17" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/prefix_statements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/expected_output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
