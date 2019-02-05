@@ -171,19 +171,3 @@ class ArrayList:
             self.remove_at(ix)
         except NotFound:
             pass
-
-
-arr = ArrayList()
-
-arr.append(10)
-arr.append(10)
-arr.append(11)
-arr.append(11)
-arr.append(13)
-arr.append(13)
-arr.append(13)
-arr.append(15)
-
-arr.print()
-
-print(arr.find(13))
