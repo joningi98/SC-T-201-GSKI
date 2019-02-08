@@ -11,14 +11,18 @@ class LinkedList(object):
     def __init__(self):
         self.head = None
         self.tail = None
-        self.size = 0
 
     def pop_front(self):
         if self.head.next is None:
             self.head = None
         else:
             self.head = self.head.next
-        self.size -= 1
+
+    def pop_back(self, head):
+        if head.next.next is None:
+            head.next = None
+        else:
+            self.pop_back(head.next)
 
     def push_back(self, data):
         new_node = Node(data)
@@ -27,7 +31,6 @@ class LinkedList(object):
         else:
             self.tail.next = new_node
         self.tail = new_node
-        self.size += 1
 
     def push_front(self, data):
         new_node = Node(data)
@@ -36,13 +39,32 @@ class LinkedList(object):
         else:
             new_node.next = self.head
             self.head = new_node
-        self.size += 1
 
-    def get_size(self):
-        return self.size
+    def get_size(self, head):
+        if head is None:
+            return 0
+        else:
+            return 1 + self.get_size(head.next)
 
-    def pop_back(self):
-        pass
+    def sum_of_data(self, head):
+        if head is None:
+            return 0
+        else:
+            return head.data + self.sum_of_data(head.next)
+
+    def insert_ordered(self, head, data):
+        if head is None or head.data > data:
+            return Node(data, head)
+        head.next = self.insert_ordered(head.next, data)
+        return head
+
+    def reverse_list(self, head):
+        if head.next is None:
+            return head
+        ret_node = self.reverse_list(head.next)
+        head.next.next = head
+        head.next = None
+        return ret_node
 
     def __str__(self):
         ret_str = ""
@@ -56,8 +78,13 @@ class LinkedList(object):
 linked_list = LinkedList()
 
 for i in range(1, 6):
-    linked_list.push_back("String" + str(i))
+    linked_list.push_back(i)
 
-linked_list.pop_front()
-print(linked_list.get_size())
 print(linked_list)
+linked_list.head = linked_list.insert_ordered(linked_list.head, 3)
+print(linked_list)
+linked_list.pop_back(linked_list.head)
+print(linked_list)
+linked_list.head = linked_list.reverse_list(linked_list.head)
+print(linked_list)
+
