@@ -26,8 +26,33 @@ class DLL_Deque(object):
         new_node = Node(data, self.tail, self.tail.prev)
         new_node.prev.next = new_node
         self.tail.prev = new_node
-
         self.size += 1
+
+    def pop_front(self):
+        self.head.next = self.head.next.next
+        self.head.next.prev = self.head
+        self.size -= 1
+
+    def pop_back(self):
+        self.tail.prev = self.tail.prev.prev
+        self.tail.prev.next = self.tail
+        self.size -= 1
+
+    def get_size(self):
+        return self.size
+
+    def walk_front(self):
+        node = self.head.next
+        while node.next is not Node:
+            if node.next is not None:
+                print(node.data)
+                node = node.next
+
+    def walk_back(self):
+        node = self.tail.next
+        while node.prev is not None:
+            print(node.data)
+            node = node.prev
 
     def __str__(self):
         ret_str = ""
@@ -47,6 +72,13 @@ dl_list.push_back(56)
 
 
 print(dl_list)
+
+dl_list.pop_front()
+dl_list.pop_back()
+print(dl_list)
+
+dl_list.walk_front()
+dl_list.walk_back()
 
 
 
