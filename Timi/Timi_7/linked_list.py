@@ -78,7 +78,7 @@ class LinkedList(object):
 linked_list = LinkedList()
 
 for i in range(1, 6):
-    linked_list.push_back(i)
+    linked_list.push_front(i)
 
 print(linked_list)
 linked_list.head = linked_list.insert_ordered(linked_list.head, 3)

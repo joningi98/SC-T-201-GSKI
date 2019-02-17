@@ -1,61 +1,53 @@
-class ArrayDeque():
+
+class ArrayDeque:
     def __init__(self):
-        self.front = 0
-        self.tail = 0
         self.size = 0
         self.capacity = 4
         self.data = [None] * self.capacity
 
     def push_front(self, value):
-        if self.size == 0:
-            self.front = 0
+        self.size += 1
         if self.size == self.capacity:
             self.resize()
-        avail = (self.front + self.size) % self.capacity
-        self.data[avail] = value
-        self.size += 1
-        self.tail += 1
+        for ix in range(self.size + 1, 0, -1):
+            self.data[ix - 1] = self.data[ix - 2]
+        self.data[0] = value
 
     def pop_front(self):
-        avail = (self.front + self.size) % self.capacity
-        self.data[avail] = None
-        self.size -= 1
-        self.front += 1
+        if self.size != 0:
+            temp = [None] * self.capacity
+            ret_data = self.data[0]
+            for ix in range(self.size):
+                temp[ix] = self.data[ix + 1]
+            self.data = temp
+            self.size -= 1
+            return ret_data
 
     def push_back(self, value):
         if self.size == self.capacity:
             self.resize()
         self.data[self.size] = value
-        self.tail = (self.tail + 1) % self.capacity
         self.size += 1
-        self.tail += 1
 
     def pop_back(self):
-        self.data[self.size - 1] = None
-        self.size -= 1
-        self.tail -= 1
+        if self.size != 0:
+            ret_value = self.data[self.size - 1]
+            self.data[self.size - 1] = None
+            self.size -= 1
+            return ret_value
 
     def resize(self):
         self.capacity *= 2
-        temp = self.data
-        self.data = [None] * self.capacity
-        walk = self.front
+        temp = [None] * self.capacity
         for ix in range(self.size):
-            self.data[ix] = temp[walk]
-            walk = (walk + 1) % len(temp)
-        self.front = 0
+            temp[ix] = self.data[ix]
+        self.data = temp
+
+    def get_size(self):
+        return self.size
 
     def __str__(self):
-        ret_str = ""
-        for ix in range(self.front, self.tail - 1):
-            ret_str += str(self.data[ix]) + " "
-        return ret_str
-
-
-my_arr = ArrayDeque()
-my_arr.push_back(1)
-my_arr.push_back(2)
-my_arr.push_back(2)
-my_arr.push_back(2)
-my_arr.push_back(2)
-print(my_arr)
+        ret_srt = ""
+        for ix in range(self.size):
+            ret_srt += str(self.data[ix]) + " "
+        return ret_srt

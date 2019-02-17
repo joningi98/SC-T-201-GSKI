@@ -1,7 +1,7 @@
-from my_array_deque import ArrayDeque
-from my_linked_list import LinkedList
-from my_stack import Stack
-from my_queue import Queue
+from PA.PA_2.QueueStackBase.my_array_deque import ArrayDeque
+from PA.PA_2.QueueStackBase.my_linked_list import LinkedList
+from PA.PA_2.QueueStackBase.my_stack import Stack
+from PA.PA_2.QueueStackBase.my_queue import Queue
 
 print("\nTESTING ARRAY_DEQUE\n")
 
