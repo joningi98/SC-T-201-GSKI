@@ -47,7 +47,4 @@ class ArrayDeque:
         return self.size
 
     def __str__(self):
-        ret_srt = ""
-        for ix in range(self.size):
-            ret_srt += str(self.data[ix]) + " "
-        return ret_srt
+        return " ".join(str(self.data[ix]) for ix in range(self.size))

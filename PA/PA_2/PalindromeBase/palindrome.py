@@ -3,6 +3,9 @@ class Node:
         self.data = data
         self.next = next
 
+    def __str__(self):
+        return str(self.data)
+
 
 def print_to_screen(head):
     if head is not None:
@@ -14,14 +17,36 @@ def print_to_screen(head):
 
 def palindrome(head):
 
-    def palindrome_helper(head):
+    def reverse_list(head):
         if head.next is None:
-            return head.data
-        else:
-            return str(head.data) + palindrome_helper(head.next)
+            return head
+        node = reverse_list(head.next)
+        head.next.next = head
+        head.next = None
+        return node
 
-    palin_word = list(palindrome_helper(head))
-    if palin_word == list(reversed(palin_word)):
+    def copy(head):
+        if head is None:
+            return None
+        head2 = Node(head.data, head.next)
+        head2.next = copy(head.next)
+        return head2
+
+    def compare_list(head1, head2):
+        if head1 is None and head2 is None:
+            return True
+        if head1 is None or head2 is None:
+            return False
+        if head1.data != head2.data:
+            return False
+        if head1.data == head2.data:
+            return compare_list(head1.next, head2.next)
+
+    head2 = copy(head)
+    new_head = reverse_list(head2)
+    compare = compare_list(head, new_head)
+
+    if compare:
         return True
     else:
         return False
