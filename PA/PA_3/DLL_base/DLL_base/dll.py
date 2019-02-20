@@ -28,10 +28,13 @@ class DLL:
         self.length += 1
 
     def remove(self):
-        if self.curr_node is not None:
-            self.curr_node.prev.next = self.curr_node.next
-            self.curr_node = self.curr_node.prev
-        self.length -= 1
+        if self.curr_node.data is None:
+            pass
+        if self.curr_node.data is not None:
+            self.curr_node = self.curr_node.next
+            self.curr_node.prev = self.curr_node.prev.prev
+            self.curr_node.prev.next = self.curr_node
+            self.length -= 1
 
     def get_value(self):
         return self.curr_node.data
@@ -45,7 +48,7 @@ class DLL:
     def move_to_pos(self, position):
         if 0 <= position <= self.length:
             node_pos = 0
-            node = self.curr_node
+            node = self.head.next
             while node.next is not None:
                 if node_pos == position:
                     self.curr_node = node
