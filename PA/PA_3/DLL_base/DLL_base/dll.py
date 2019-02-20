@@ -30,6 +30,7 @@ class DLL:
     def remove(self):
         if self.curr_node is not None:
             self.curr_node.prev.next = self.curr_node.next
+            self.curr_node = self.curr_node.prev
         self.length -= 1
 
     def get_value(self):
@@ -61,22 +62,3 @@ class DLL:
             ret_str += str(node.data) + " "
             node = node.next
         return ret_str
-
-
-my_dll = DLL()
-my_dll.insert("A")
-my_dll.insert("B")
-my_dll.insert("C")
-my_dll.insert(1)
-my_dll.insert(2)
-my_dll.insert(4)
-my_dll.insert(2)
-my_dll.insert("VALUE")
-my_dll.insert("D")
-my_dll.insert("E")
-print(my_dll)
-my_dll.move_to_pos(2)
-print(my_dll.curr_node)
-my_dll.remove()
-print(my_dll)
-
