@@ -1,12 +1,11 @@
 import sys
-from dll import DLL
+from PA.PA_3.DLL_base.DLL_base.dll import DLL
+
 
 def main():
-
     orig_stdout = sys.stdout
     fout = open('out.txt', 'w+')
     sys.stdout = fout
-
 
     print("\n\nTESTING THE BASIC STUFF\n")
 
@@ -97,9 +96,7 @@ def main():
     dll.remove()
     print(str(dll) + "   -   current value: " + str(dll.get_value()) + "   -   size: " + str(len(dll)))
 
-
     print("\n\nTESTING MORE COMPLEX STUFF\n")
-
 
     dll = DLL()
     print(str(dll) + "   -   current value: " + str(dll.get_value()) + "   -   size: " + str(len(dll)))
@@ -135,10 +132,8 @@ def main():
     dll.reverse()
     print(str(dll) + "   -   current value: " + str(dll.get_value()) + "   -   size: " + str(len(dll)))
 
-
     dll.remove_all("C")
     print(str(dll) + "   -   current value: " + str(dll.get_value()) + "   -   size: " + str(len(dll)))
-
 
     dll.move_to_next()
     print(str(dll) + "   -   current value: " + str(dll.get_value()) + "   -   size: " + str(len(dll)))
@@ -163,5 +158,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" line="66" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,6 +125,39 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2147398864">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="py" value="11" />
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="3742" />
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="3742" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="SC-T-201-GSKI" />
@@ -183,12 +219,17 @@
         <option value="$PROJECT_DIR$/Timi/Timi_8/double-ended_queue.py" />
         <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/tests.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_7/linked_list.py" />
-        <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_linked_list.py" />
         <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_queue.py" />
         <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_stack.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_6/Deque.py" />
         <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_array_deque.py" />
         <option value="$PROJECT_DIR$/PA/PA_2/PalindromeBase/palindrome.py" />
+        <option value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/weak_tests.py" />
+        <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_linked_list.py" />
+        <option value="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/stack.py" />
+        <option value="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/queue.py" />
+        <option value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/out.txt" />
+        <option value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" />
       </list>
     </option>
   </component>
@@ -256,6 +297,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -285,12 +327,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_6/Deque.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +340,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_array_deque" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,12 +348,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_array_deque.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,7 +361,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="my_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -329,34 +369,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_stack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="palindrome" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-201-GSKI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_2/PalindromeBase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_2/PalindromeBase/palindrome.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -387,12 +404,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="weak_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-201-GSKI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/weak_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.tests" />
-      <item itemvalue="Python.my_stack" />
-      <item itemvalue="Python.palindrome" />
-      <item itemvalue="Python.Deque" />
-      <item itemvalue="Python.my_array_deque" />
+      <item itemvalue="Python.dll" />
+      <item itemvalue="Python.weak_tests" />
+      <item itemvalue="Python.stack" />
+      <item itemvalue="Python.queue" />
     </list>
     <recent_temporary>
       <list>
@@ -426,12 +464,12 @@
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32947367" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32947367" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32842106" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -444,18 +482,18 @@
       <window_info anchor="right" id="Run" order="5" weight="0.7084222" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1147651" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.12793177" />
+      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32947367" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32947367" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32842106" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -464,7 +502,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" weight="0.3966443" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.36673775" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,127 +600,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/expected_output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/extra_tests.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/shlex.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_create_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/tests.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/merge_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/compare_output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="3034" column="56" selection-start-line="3034" selection-start-column="14" selection-end-line="3034" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/expected_out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="3034" column="32" selection-start-line="3034" selection-start-column="32" selection-end-line="3034" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/prefix_statements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/main_program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" selection-start-line="17" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/prefix_statements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/expected_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_8/double-ended_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-2108745227/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="815" column="8" selection-start-line="815" selection-start-column="8" selection-end-line="815" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/expected_output.txt" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/extra_tests.txt" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/shlex.py" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/binary_search.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_create_tests.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/tests.txt" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/merge_sort.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/compare_output.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/expected_out.txt" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/prefix_statements.txt" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/tokenizer.py" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_5/main_program.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/prefix_statements.txt" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/expected_output.txt" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-2108745227/builtins.py" />
     <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -690,35 +627,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/array_list.py">
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/array_list.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/main_test.py" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_7/linked_list.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_stack.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_queue.py" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_6/queue.py" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_6/Deque.py" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_6/stack.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/expected_output.txt" />
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/PalindromeBase/palindrome.py" />
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_8/double-ended_queue.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="783">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/main_test.py">
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_7/linked_list.py">
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_array_deque.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
+        <state relative-caret-position="-78" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_stack.py">
+    <entry file="file://$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_queue.py">
+    <entry file="file://$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/queue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
@@ -781,7 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/PalindromeBase/palindrome.py">
+    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
