@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA/PA_2.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,14 +99,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="82" />
+          <entry key="py" value="83" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="82" />
+          <entry key="Python" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -130,7 +127,13 @@
     <favorites_list name="SC-T-201-GSKI" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -219,6 +222,27 @@
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
               <item name="PA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
+              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
+              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
+              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
+              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,6 +419,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.12793177" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
@@ -449,13 +474,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_2/multiplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Timi/Timi_2/list_ix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -769,6 +787,9 @@
           <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
