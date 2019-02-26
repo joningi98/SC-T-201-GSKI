@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" line="104" />
+    <bookmark url="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" line="100" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/compare_output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timi/Timi_14/binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timi/Timi_14/general_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Jón_Ingi.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Jón_Ingi.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/out.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Hlutaprof_2/Hlutaprof2Base/solutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Hlutaprof_2/Hlutaprof2Base/solutions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/out_diff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/out_diff.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +23,7 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$weak_tests.coverage" NAME="weak_tests Coverage Results" MODIFIED="1551131818523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$compare_output.coverage" NAME="compare_output Coverage Results" MODIFIED="1551131892345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$1.coverage" NAME="1 Coverage Results" MODIFIED="1547070508664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$stronger_tests__1_.coverage" NAME="stronger_tests (1) Coverage Results" MODIFIED="1551131987854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$stronger_tests__1_.coverage" NAME="stronger_tests (1) Coverage Results" MODIFIED="1551133327648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_program.coverage" NAME="main_program Coverage Results" MODIFIED="1549305626363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/PrefixParserBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$tests.coverage" NAME="tests Coverage Results" MODIFIED="1550525623214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$queue__1_.coverage" NAME="queue (1) Coverage Results" MODIFIED="1550693048560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues" />
@@ -40,6 +42,8 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$DLL.coverage" NAME="DLL Coverage Results" MODIFIED="1550703858903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$sum_of_list.coverage" NAME="sum_of_list Coverage Results" MODIFIED="1548926585881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_stack.coverage" NAME="my_stack Coverage Results" MODIFIED="1550424612390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$general_tree.coverage" NAME="general_tree Coverage Results" MODIFIED="1551188584601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_14" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1551191442004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_14" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$2.coverage" NAME="2 Coverage Results" MODIFIED="1548924009790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_create_tests.coverage" NAME="main_create_tests Coverage Results" MODIFIED="1549280281197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$array_list.coverage" NAME="array_list Coverage Results" MODIFIED="1549304492270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
@@ -58,7 +62,7 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1550682096089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prep_for_test/test_2/nodes_and_linked_lists" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$njkjkl.coverage" NAME="njkjkl Coverage Results" MODIFIED="1550678258938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_test__1_.coverage" NAME="main_test (1) Coverage Results" MODIFIED="1549299294499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$compare_output__1_.coverage" NAME="compare_output (1) Coverage Results" MODIFIED="1551131993398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$compare_output__1_.coverage" NAME="compare_output (1) Coverage Results" MODIFIED="1551133332169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1329573753">
@@ -100,15 +104,15 @@
     <session id="-1738446097">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="3" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.23" value="4" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="3" />
@@ -116,31 +120,31 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="132" />
+          <entry key="py" value="137" />
           <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="132" />
+          <entry key="Python" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
-          <entry key="py" value="29664" />
+          <entry key="py" value="31905" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="29664" />
+          <entry key="Python" value="31905" />
         </counts>
       </usages-collector>
     </session>
@@ -184,10 +188,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py">
+        <entry file="file://$PROJECT_DIR$/Timi/Timi_14/binary_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="738">
+              <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Timi/Timi_14/general_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -207,8 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Timi/Timi_2/power.py" />
-        <option value="$PROJECT_DIR$/Timi/Timi_2/multiplication.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_2/random.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_2/list_ix.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_2/list_print.py" />
@@ -258,6 +269,8 @@
         <option value="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/stronger_tests.py" />
         <option value="$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/out.txt" />
         <option value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" />
+        <option value="$PROJECT_DIR$/Timi/Timi_14/general_tree.py" />
+        <option value="$PROJECT_DIR$/Timi/Timi_14/binary_tree.py" />
       </list>
     </option>
   </component>
@@ -291,58 +304,13 @@
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="Timi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_2" type="462c0819:PsiDirectoryNode" />
-              <item name="PalindromeBase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
-              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
-              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
-              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
-              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
-              <item name="stronger_tests (1)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_3" type="462c0819:PsiDirectoryNode" />
-              <item name="DLL_base" type="462c0819:PsiDirectoryNode" />
-              <item name="stronger_tests (1)" type="462c0819:PsiDirectoryNode" />
-              <item name="stronger_tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Timi" type="462c0819:PsiDirectoryNode" />
+              <item name="Timi_14" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,7 +348,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compare_output (1)">
+  <component name="RunManager" selected="Python.binary_tree">
+    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-201-GSKI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_14/binary_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="compare_output (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -425,7 +415,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="general_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,12 +423,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_14" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_14/general_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -469,42 +459,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weak_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-201-GSKI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/weak_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.compare_output (1)" />
       <item itemvalue="Python.stronger_tests (1)" />
-      <item itemvalue="Python.dll" />
-      <item itemvalue="Python.weak_tests" />
       <item itemvalue="Python.compare_output" />
+      <item itemvalue="Python.binary_tree" />
+      <item itemvalue="Python.general_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binary_tree" />
+        <item itemvalue="Python.general_tree" />
         <item itemvalue="Python.compare_output (1)" />
         <item itemvalue="Python.stronger_tests (1)" />
         <item itemvalue="Python.compare_output" />
-        <item itemvalue="Python.weak_tests" />
-        <item itemvalue="Python.dll" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +493,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.10554371" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.1076759" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -545,7 +513,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.14872068" />
+      <window_info anchor="right" id="Run" order="5" weight="0.3523454" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.12793177" />
@@ -596,9 +564,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/compare_output.py" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out_diff.txt" />
     <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/out.txt" />
     <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/expected_out.txt" />
     <entry file="file://$PROJECT_DIR$/Timi/Timi_5/prefix_statements.txt" />
@@ -791,27 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/stronger_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/expected_out.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="28370" selection-start-line="28369" selection-end-line="28370" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/compare_output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -832,10 +780,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/PA_3/DLL_base/dll.py" />
     <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="313">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/stronger_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/stronger_tests (1)/stronger_tests/compare_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_14/general_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_14/binary_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
         </state>
       </provider>
     </entry>
