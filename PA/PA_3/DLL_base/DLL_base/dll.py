@@ -34,22 +34,18 @@ class DLL:
         self.length -= 1
         return ret_value
 
-    def remove_all(self, target):
-        if self.length != 0:
-            original_pos = self.curr_node
-            self.curr_node = self.head.next
-            change_curr = False
-            if self.curr_node.data == target:
-                change_curr = True
-            while self.curr_node is not None:
-                if self.curr_node.data == target:
-                    self.remove()
-                else:
-                    self.curr_node = self.curr_node.next
-            if change_curr:
-                self.move_to_pos(0)
-            else:
-                self.curr_node = original_pos
+    def remove_all(self, value):
+        saved_curr = self.curr_node
+        walk = self.head.next
+        while walk != self.tail:
+            if walk.data == value:
+                self.curr_node = walk
+                self.remove()
+            walk = walk.next
+        if saved_curr.data is value:
+            self.move_to_pos(0)
+        else:
+            self.curr_node = saved_curr
 
     def reverse(self):
         for ix in range(self.length - 1):
