@@ -3,19 +3,21 @@ from random import Random
 
 class Key:
     def __init__(self, int_value, string_value):
-        self.i = int_value
-        self.i2 = string_value
+        self.int_value = int_value
+        self.string_value = string_value
 
     def __eq__(self, other):
-        return self.i == other.i and self.i2 == other.i2
+        return self.int_value == other.int_value and self.string_value == other.string_value
 
     def __hash__(self):
-        return self.i * self.i2
+        str_value = sum([ord(x) for x in self.string_value])
+        my_hash = str_value * self.int_value
+        return (((my_hash * 33) // 37) * 39) * 41
 
 
 def find_prime(size_of_lis):
     my_list = []
-    for num in range(2, size_of_lis):
+    for num in range(size_of_lis, size_of_lis * 2):
         prime = True
         for i in range(2, num):
             if num % i == 0:

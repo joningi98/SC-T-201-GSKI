@@ -35,15 +35,16 @@ class Bucket:
             raise ItemExistsException()
 
     def update(self, key, data):
-        try:
+        if self.contains(key):
             self[key] = data
-        except IndexError:
-            return IndexError
+        else:
+            raise NotFoundException()
 
     def find(self, key):
-        if self.contains(key):
+        try:
             return self[key]
-        # raise NotFoundException()
+        except Exception:
+            raise NotFoundException()
 
     def contains(self, key):
         return key in self
@@ -58,22 +59,26 @@ class Bucket:
 
     def remove(self, key):
         if self.contains(key):
-            node_1 = self.head
-            node_2 = self.head.next
-            while node_2 is not None:
-                if str(node_1.key) == str(key):
-                    self.head = node_1.next
-                    self.size -= 1
-                    break
-                if str(node_2.key) == str(key):
-                    node_1.next = node_2.next
-                    self.size -= 1
-                    break
-                node_1 = node_1.next
-                node_2 = node_2.next
+            if self.size != 1:
+                node_1 = self.head
+                node_2 = self.head.next
+                while node_2 is not None:
+                    if str(node_1.key) == str(key):
+                        self.head = self.head.next
+                        self.size -= 1
+                        break
+                    if str(node_2.key) == str(key):
+                        node_1.next = node_2.next
+                        self.size -= 1
+                        break
+                    node_1 = node_1.next
+                    node_2 = node_2.next
+            else:
+                self.head = None
+                self.tail = None
+                self.size -= 1
         else:
-            pass
-            # raise NotFoundError()
+            raise NotFoundException()
 
     def __setitem__(self, key, data):
         node = self.head
@@ -91,7 +96,7 @@ class Bucket:
             if str(node.key) == str(key):
                 return node.data
             node = node.next
-        # raise NotFound error
+        raise NotFoundException()
 
     def __len__(self):
         return self.size
@@ -110,42 +115,80 @@ class Bucket:
 
 class HashMap:
     def __init__(self):
-        self.map = [Bucket() for _ in range(10)]
-        self.size = 10
+        self.capacity = 8
+        self.map = [Bucket() for _ in range(self.capacity)]
+        self.size = 0
 
     def insert(self, key, data):
-        selected_bucket = self.map[key]
+        if self.check_size_of_map():
+            self.__resize()
+        selected_bucket = self.map[hash(key) % self.capacity]
         if selected_bucket.contains(key):
-            raise ItemExistsException
-            pass
+            raise ItemExistsException()
         else:
             selected_bucket.insert(key, data)
+            self.size += 1
 
     def update(self, key, data):
-        pass
+        selected_bucket = self.map[hash(key) % self.capacity]
+        if selected_bucket.contains(key):
+            selected_bucket.update(key, data)
+        else:
+            raise NotFoundException()
 
     def find(self, key):
-        pass
+        try:
+            selected_bucket = self.map[hash(key) % self.capacity]
+            return selected_bucket.find(key)
+        except Exception:
+            raise NotFoundException()
 
     def contains(self, key):
-        pass
+        return key in self
 
     def remove(self, key):
-        pass
+        selected_bucket = self.map[hash(key) % self.capacity]
+        if selected_bucket.find(key):
+            selected_bucket.remove(key)
+            self.size -= 1
+        else:
+            raise NotFoundException()
+
+    def __resize(self):
+        self.capacity *= 2
+        temp = [Bucket() for _ in range(self.capacity)]
+        for bucket in self.map:
+            node = bucket.head
+            while node is not None:
+                temp[hash(node.key) % self.capacity].insert(node.key, node.data)
+                node = node.next
+        self.map = temp
+
+    def check_size_of_map(self):
+        if self.size / self.capacity >= 1.20:
+            return True
+        else:
+            return False
+
+    def __contains__(self, key):
+        selected_bucket = self.map[hash(key) % self.capacity]
+        if selected_bucket.contains(key):
+            return True
+        else:
+            return False
 
     def __setitem__(self, key, data):
-        try:
-            chose_bucket = self.map[key]
-            chose_bucket[key] = data
-        except IndexError:
-            pass
+        if self.contains(key):
+            self.update(key, data)
+        else:
+            self.insert(key, data)
 
     def __getitem__(self, key):
-        try:
-            chose_bucket = self.map[key]
-            return chose_bucket[key]
-        except IndexError:
-            pass
+        if self.contains(key):
+            selected_bucket = self.map[hash(key) % self.capacity]
+            return selected_bucket[key]
+        else:
+            raise NotFoundException()
 
     def __len__(self):
         return self.size
@@ -158,39 +201,14 @@ class HashMap:
 
 
 class MyHashableKey:
-    def __init__(self, int_value=0, string_value=""):
-        self.int = int_value
-        self.str = string_value
+    def __init__(self, int_value, string_value):
+        self.int_value = int_value
+        self.string_value = string_value
 
     def __eq__(self, other):
-        return self.int == other.int and self.str == other.str
-
+        return self.int_value == other.int_value and self.string_value == other.string_value
 
     def __hash__(self):
-        pass
-
-'''
-if __name__ == "__main__":
-    my_map = HashMap()
-    my_map.insert(1, "A")
-    my_map.insert(2, "B")
-    my_map.insert(3, "C")
-    my_map.insert(4, "D")
-    my_map.insert(5, "E")
-    my_map.insert(6, "F")
-    my_map.insert(7, "G")
-    my_map.insert(8, "H")
-    print(my_map)
-'''
-
-'''
-if __name__ == "__main__":
-    print("Testing bucket")
-    my_b = Bucket()
-    my_b.insert(1, "A")
-    my_b.insert(2, "B")
-    my_b.insert(3, "C")
-    my_b[4] = 'Bucket'
-    print(my_b)
-'''
-
+        str_value = sum([ord(x) for x in self.string_value])
+        my_hash = str_value * self.int_value
+        return (((my_hash * 33) // 37) * 39) * 41
