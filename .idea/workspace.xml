@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PA/PA_4/hash_map_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA/PA_4/hash_key_tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Timi/TImi_16/hash_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Timi/TImi_16/hash_code.py" afterDir="false" />
@@ -20,14 +19,18 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_program.coverage" NAME="main_program Coverage Results" MODIFIED="1549305626363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/PrefixParserBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$tests.coverage" NAME="tests Coverage Results" MODIFIED="1550494502657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$multiplication.coverage" NAME="multiplication Coverage Results" MODIFIED="1547560639883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_code.coverage" NAME="hash_code Coverage Results" MODIFIED="1552328914991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/TImi_16" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Tile_Traveler.coverage" NAME="Tile_Traveler Coverage Results" MODIFIED="1547556895712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$swithc.coverage" NAME="swithc Coverage Results" MODIFIED="1547566297230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$natural.coverage" NAME="natural Coverage Results" MODIFIED="1548934233605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_key_tests.coverage" NAME="hash_key_tests Coverage Results" MODIFIED="1552328569736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$list_print.coverage" NAME="list_print Coverage Results" MODIFIED="1547561929917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$power.coverage" NAME="power Coverage Results" MODIFIED="1547560088295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_array_deque.coverage" NAME="my_array_deque Coverage Results" MODIFIED="1550493981607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$dynamic_arr.coverage" NAME="dynamic_arr Coverage Results" MODIFIED="1548927682085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/part_3" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ADT_Bucket.coverage" NAME="ADT_Bucket Coverage Results" MODIFIED="1552328290239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$double_ended_queue.coverage" NAME="double-ended_queue Coverage Results" MODIFIED="1550135655920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_8" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_map_tests.coverage" NAME="hash_map_tests Coverage Results" MODIFIED="1552327061770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$sum_of_list.coverage" NAME="sum_of_list Coverage Results" MODIFIED="1548926585881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_stack.coverage" NAME="my_stack Coverage Results" MODIFIED="1550424612390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$2.coverage" NAME="2 Coverage Results" MODIFIED="1548924009790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
@@ -85,8 +88,8 @@
     <session id="-1738446097">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -99,31 +102,31 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="78" />
+          <entry key="py" value="82" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="78" />
+          <entry key="Python" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="py" value="18532" />
+          <entry key="py" value="20724" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="18532" />
+          <entry key="Python" value="20724" />
         </counts>
       </usages-collector>
     </session>
@@ -172,24 +175,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2567">
-              <caret line="169" column="12" lean-forward="true" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
-              <folding>
-                <marker date="1552232557473" expanded="true" signature="51:63" ph="..." />
-                <marker date="1552232557473" expanded="true" signature="100:112" ph="..." />
-                <marker date="1552232557473" expanded="true" signature="1264:1855" ph="..." />
-                <marker date="1552232557473" expanded="true" signature="2864:3067" ph="..." />
-                <marker date="1552232557473" expanded="true" signature="3823:4072" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PA/PA_4/hash_map_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="313">
+              <caret line="187" column="65" lean-forward="true" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -197,11 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Timi/TImi_16/hash_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <marker date="1552232390418" expanded="true" signature="320:594" ph="..." />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -214,6 +198,13 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>raise</find>
+      <find>NotFoundException</find>
+      <find>ItemExistsException</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,6 +261,7 @@
         <option value="$PROJECT_DIR$/PA/PA_4/test.py" />
         <option value="$PROJECT_DIR$/PA/PA_4/hash_map_tests.py" />
         <option value="$PROJECT_DIR$/Timi/TImi_16/hash_code.py" />
+        <option value="$PROJECT_DIR$/PA/PA_4/hash_key_tests.py" />
         <option value="$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py" />
       </list>
     </option>
@@ -280,9 +272,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="48" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -294,7 +285,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -342,6 +332,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,13 +343,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jón Ingi Ólafsson\Documents\GitHub\SC-T-201-GSKI\PA\PA_4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_1" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_1\ArrayListBase" />
       <recent name="C:\Users\Jón Ingi\PycharmProjects\SC-T-201-GSKI\Timi\Timi_1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_4" />
+      <recent name="C:\Users\Jón Ingi Ólafsson\Documents\GitHub\SC-T-201-GSKI\PA\PA_4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hash_map_tests">
+  <component name="RunManager" selected="Python.hash_code">
     <configuration name="ADT_Bucket" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -386,6 +378,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -407,7 +400,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/TImi_16/hash_code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hash_key_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-201-GSKI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_4/hash_key_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,6 +444,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_4/hash_map_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -449,6 +466,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -458,41 +476,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weak_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-201-GSKI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/weak_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.weak_tests" />
       <item itemvalue="Python.queue" />
       <item itemvalue="Python.ADT_Bucket" />
       <item itemvalue="Python.hash_map_tests" />
       <item itemvalue="Python.hash_code" />
+      <item itemvalue="Python.hash_key_tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hash_map_tests" />
         <item itemvalue="Python.hash_code" />
+        <item itemvalue="Python.hash_key_tests" />
         <item itemvalue="Python.ADT_Bucket" />
+        <item itemvalue="Python.hash_map_tests" />
         <item itemvalue="Python.queue" />
-        <item itemvalue="Python.weak_tests" />
       </list>
     </recent_temporary>
   </component>
@@ -510,17 +507,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.13219616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.13326226" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32947367" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.32947367" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32842106" />
@@ -533,21 +529,21 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.40938166" />
+      <window_info anchor="right" id="Run" order="5" weight="0.43976545" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.12793177" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.13326226" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32947367" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.32947367" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32842106" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.3991323" />
+      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.28958786" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -556,7 +552,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.36673775" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.45575693" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,8 +562,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/Part_2/sum_of_list.py" />
-    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/Part_2/natural.py" />
     <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/solutions.py" />
     <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/expected_output.txt" />
     <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/extra_tests.txt" />
@@ -675,41 +669,39 @@
     <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/array_list.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/codecs.py">
+    <entry file="file://C:/Program Files/Python37/Lib/codecs.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="321" selection-start-line="321" selection-end-line="321" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/TImi_16/hash_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <marker date="1552232390418" expanded="true" signature="320:594" ph="..." />
-          </folding>
+        <state relative-caret-position="516">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PA/PA_4/hash_map_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="534">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_4/hash_key_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timi/TImi_16/hash_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="169" column="12" lean-forward="true" selection-start-line="169" selection-start-column="12" selection-end-line="169" selection-end-column="12" />
-          <folding>
-            <marker date="1552232557473" expanded="true" signature="51:63" ph="..." />
-            <marker date="1552232557473" expanded="true" signature="100:112" ph="..." />
-            <marker date="1552232557473" expanded="true" signature="1264:1855" ph="..." />
-            <marker date="1552232557473" expanded="true" signature="2864:3067" ph="..." />
-            <marker date="1552232557473" expanded="true" signature="3823:4072" ph="..." />
-          </folding>
+        <state relative-caret-position="313">
+          <caret line="187" column="65" lean-forward="true" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
         </state>
       </provider>
     </entry>
