@@ -1,0 +1,2 @@
+talk = input()
+print(talk)
