@@ -55,11 +55,12 @@ class BinaryTree:
         self.print_preorder(node.right)
 
     def print_inorder(self, node):
-        if node is None:
-            return None
-        self.print_inorder(node.left)
-        print(str(node.data), end=" ")
-        self.print_inorder(node.right)
+        string = ""
+        if node:
+            string += self.print_inorder(node.left)
+            string += str(node.data) + " "
+            string += self.print_inorder(node.right)
+        return string
 
     def print_tree(self):
         print("Post-order")
@@ -71,6 +72,9 @@ class BinaryTree:
         print("In-order")
         self.print_inorder(self.root)
         print("")
+
+    def __str__(self):
+        return self.print_inorder(self.root)
 
 
 if __name__ == "__main__":
@@ -85,6 +89,5 @@ if __name__ == "__main__":
                                             BinaryTreeNode('G',
                                                            BinaryTreeNode('A'))))
     bt.print_tree()
-    print(bt.count_values('A'))
-    bt.change_value('A', '88')
-    bt.print_tree()
+
+    print(bt)
