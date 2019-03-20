@@ -1,2 +1,0 @@
-talk = input()
-print(talk)
