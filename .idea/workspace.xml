@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/GSF/GA_5/GA_5.sql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA/PA_5/PA5mitt_joningi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA/PA_6/Members.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA/PA_6/Sports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA/PA_6/UI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Timi/Timi_19/indexing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Timi/Timi_14/binary_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Timi/Timi_14/binary_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GSF/CHECKFD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/GSF/dw_10/CHECKFD.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GSF/CHECKMVD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/GSF/dw_10/CHECKMVD.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GSF/DW10.py" beforeDir="false" afterPath="$PROJECT_DIR$/GSF/dw_10/DW10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA/PA_5/BSTmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_5/BSTmap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +29,9 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$tests.coverage" NAME="tests Coverage Results" MODIFIED="1550494502657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$multiplication.coverage" NAME="multiplication Coverage Results" MODIFIED="1547560639883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$bst_map_tests.coverage" NAME="bst_map_tests Coverage Results" MODIFIED="1552928608287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_5" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$BSTmap.coverage" NAME="BSTmap Coverage Results" MODIFIED="1552939114466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_5" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$BSTmap.coverage" NAME="BSTmap Coverage Results" MODIFIED="1553713194232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_5" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$GA_5_sql__1_.coverage" NAME="GA_5.sql (1) Coverage Results" MODIFIED="1553711806006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GSF/GA_5" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$GA_5_sql.coverage" NAME="GA_5.sql Coverage Results" MODIFIED="1553631315952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GSF" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$mine.coverage" NAME="mine Coverage Results" MODIFIED="1552666723803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paff" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ADT_BST.coverage" NAME="ADT_BST Coverage Results" MODIFIED="1552560784423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_18" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_code.coverage" NAME="hash_code Coverage Results" MODIFIED="1552328914991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/TImi_16" />
@@ -30,6 +41,7 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_key_tests.coverage" NAME="hash_key_tests Coverage Results" MODIFIED="1552328569736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$list_print.coverage" NAME="list_print Coverage Results" MODIFIED="1547561929917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$power.coverage" NAME="power Coverage Results" MODIFIED="1547560088295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Members.coverage" NAME="Members Coverage Results" MODIFIED="1553769073331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_6" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_array_deque.coverage" NAME="my_array_deque Coverage Results" MODIFIED="1550493981607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$dynamic_arr.coverage" NAME="dynamic_arr Coverage Results" MODIFIED="1548927682085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/part_3" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ADT_Bucket.coverage" NAME="ADT_Bucket Coverage Results" MODIFIED="1552328290239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
@@ -42,6 +54,7 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_create_tests.coverage" NAME="main_create_tests Coverage Results" MODIFIED="1549280281197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$heat.coverage" NAME="heat Coverage Results" MODIFIED="1552665075066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paff" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$array_list.coverage" NAME="array_list Coverage Results" MODIFIED="1549304492270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$indexing.coverage" NAME="indexing Coverage Results" MODIFIED="1553619143061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_19" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordered_insertion.coverage" NAME="ordered_insertion Coverage Results" MODIFIED="1547583157169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Deque.coverage" NAME="Deque Coverage Results" MODIFIED="1550431719456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_6" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$solutions.coverage" NAME="solutions Coverage Results" MODIFIED="1553004064829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof_3" />
@@ -110,50 +123,53 @@
     <session id="-1738446097">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="3" />
-          <entry key="project.open.time.24" value="2" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.23" value="4" />
+          <entry key="project.open.time.24" value="3" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="3" />
+          <entry key="project.open.time.27" value="4" />
+          <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="116" />
+          <entry key="py" value="140" />
+          <entry key="sql" value="19" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="115" />
+          <entry key="Python" value="139" />
+          <entry key="SQL" value="19" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="42" />
-          <entry key="dummy" value="12" />
-          <entry key="py" value="34476" />
+          <entry key="Python Console" value="77" />
+          <entry key="dummy" value="26" />
+          <entry key="py" value="42309" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="34518" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="42386" />
         </counts>
       </usages-collector>
     </session>
@@ -198,21 +214,7 @@
     <favorites_list name="SC-T-201-GSKI" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test/Hlutaprof_3/solutions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="127" column="40" lean-forward="true" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
-              <folding>
-                <element signature="e#18#219#0" />
-                <element signature="e#273#2226#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -226,6 +228,7 @@
       <find>raise</find>
       <find>NotFoundException</find>
       <find>ItemExistsException</find>
+      <find>irange</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -234,15 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Test/Hlutaprof/recursion.py" />
-        <option value="$PROJECT_DIR$/Test/Hlutaprof/Part_2/sum_of_list.py" />
-        <option value="$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py" />
-        <option value="$PROJECT_DIR$/Test/Hlutaprof/Part_4/the_zoo.py" />
-        <option value="$PROJECT_DIR$/Test/Hlutaprof/Part_2/natural.py" />
-        <option value="$PROJECT_DIR$/Test/Hlutaprof/solutions.py" />
-        <option value="$PROJECT_DIR$/PA/PA_1/ArrayListBase (1)/ArrayListBase/main_test.py" />
-        <option value="$PROJECT_DIR$/PA/PA_1/ArrayListBase (1)/ArrayListBase/array_list.py" />
-        <option value="$PROJECT_DIR$/PA/PA_1/ArrayListBase/main_test.py" />
         <option value="$PROJECT_DIR$/PA/PA_1/ArrayListBase/array_list.py" />
         <option value="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_create_tests.py" />
         <option value="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py" />
@@ -279,12 +273,21 @@
         <option value="$PROJECT_DIR$/paff/line.py" />
         <option value="$PROJECT_DIR$/PA/PA_5/BST_Test.py" />
         <option value="$PROJECT_DIR$/PA/PA_5/bst_map_tests.py" />
-        <option value="$PROJECT_DIR$/PA/PA_5/BSTmap.py" />
         <option value="$PROJECT_DIR$/Prep_for_test/Test_3/binary_tree.py" />
         <option value="$PROJECT_DIR$/Prep_for_test/Test_3/general_tree.py" />
         <option value="$PROJECT_DIR$/Prep_for_test/Test_3/priorityTree.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_14/binary_tree.py" />
         <option value="$PROJECT_DIR$/Test/Hlutaprof_3/solutions.py" />
+        <option value="$PROJECT_DIR$/PA/PA_5/PA5mitt_joningi.py" />
+        <option value="$PROJECT_DIR$/Timi/Timi_19/indexing.py" />
+        <option value="$PROJECT_DIR$/GSF/GA_5.sql.py" />
+        <option value="$PROJECT_DIR$/GSF/GA_5/GA_5.sql.py" />
+        <option value="$PROJECT_DIR$/PA/PA_5/BSTmap.py" />
+        <option value="$PROJECT_DIR$/PA/PA_6/REPO.py" />
+        <option value="$PROJECT_DIR$/PA/PA_6/SERVICE.py" />
+        <option value="$PROJECT_DIR$/PA/PA_6/UI.py" />
+        <option value="$PROJECT_DIR$/PA/PA_6/Sports.py" />
+        <option value="$PROJECT_DIR$/PA/PA_6/Members.py" />
       </list>
     </option>
   </component>
@@ -294,9 +297,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -320,34 +322,6 @@
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
               <item name="PA" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Hlutaprof_3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="Timi" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -366,14 +340,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\MVD" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\FD" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\dw_10" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Test\Hlutaprof_3" />
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_1" />
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_1\ArrayListBase" />
-      <recent name="C:\Users\Jón Ingi\PycharmProjects\SC-T-201-GSKI\Timi\Timi_1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Test\Hlutaprof_3" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_5" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Test\Hlutaprof_3" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_4" />
       <recent name="C:\Users\Jón Ingi Ólafsson\Documents\GitHub\SC-T-201-GSKI\PA\PA_4" />
     </key>
@@ -390,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.solutions">
+  <component name="RunManager" selected="Python.Members">
     <configuration name="BSTmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -413,7 +388,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary_tree (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GA_5.sql (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,12 +396,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GSF/GA_5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_14/binary_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GSF/GA_5/GA_5.sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -435,7 +410,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GA_5.sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -443,12 +418,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prep_for_test/Test_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GSF" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prep_for_test/Test_3/binary_tree.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\GA_5.sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -457,7 +432,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bst_map_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Members" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -465,12 +440,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_5/bst_map_tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_6/Members.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -479,7 +454,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="solutions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="indexing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -487,12 +462,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test/Hlutaprof_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_19" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Hlutaprof_3/solutions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_19/indexing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -502,19 +477,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.binary_tree" />
       <item itemvalue="Python.BSTmap" />
-      <item itemvalue="Python.bst_map_tests" />
-      <item itemvalue="Python.binary_tree (1)" />
-      <item itemvalue="Python.solutions" />
+      <item itemvalue="Python.indexing" />
+      <item itemvalue="Python.GA_5.sql" />
+      <item itemvalue="Python.GA_5.sql (1)" />
+      <item itemvalue="Python.Members" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.solutions" />
-        <item itemvalue="Python.binary_tree (1)" />
-        <item itemvalue="Python.binary_tree" />
+        <item itemvalue="Python.Members" />
         <item itemvalue="Python.BSTmap" />
-        <item itemvalue="Python.bst_map_tests" />
+        <item itemvalue="Python.GA_5.sql (1)" />
+        <item itemvalue="Python.GA_5.sql" />
+        <item itemvalue="Python.indexing" />
       </list>
     </recent_temporary>
   </component>
@@ -531,54 +506,62 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.10607676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.1130064" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32947367" />
+      <window_info anchor="bottom" id="Database Changes" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49946696" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.28958786" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32842106" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.47505423" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3275488" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.37093276" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.329718" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.31556502" />
+      <window_info anchor="right" id="Run" order="5" weight="0.23880596" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.10607676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.09008529" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32947367" />
+      <window_info anchor="bottom" id="Database Changes" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49946696" weight="0.3286334" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.28958786" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32842106" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.28958786" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3275488" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.37201735" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.329718" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" weight="0.47014925" />
+      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.13272922" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,12 +587,10 @@
           <line>26</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/PA/PA_5/BSTmap.py</url>
-          <line>173</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -625,74 +606,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/expected_output.txt" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-2108745227/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/Test/Hlutaprof/part_3/dynamic_arr.py" />
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_7/linked_list.py" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_queue.py" />
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_6/queue.py" />
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_6/Deque.py" />
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_6/stack.py" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/expected_output.txt" />
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_8/double-ended_queue.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_array_deque.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/out.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/expected_out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/weak_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="103" lean-forward="true" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Prep_for_test/test_2/stacks_and_queues/queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PA/PA_4/test.py" />
     <entry file="file://$PROJECT_DIR$/PA/PA_2/PalindromeBase/palindrome.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -756,41 +669,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paff/bergmal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="10" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paff/heat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paff/chess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paff/mine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paff/line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/paff/bergmal.py" />
+    <entry file="file://$PROJECT_DIR$/paff/heat.py" />
+    <entry file="file://$PROJECT_DIR$/paff/chess.py" />
+    <entry file="file://$PROJECT_DIR$/paff/mine.py" />
+    <entry file="file://$PROJECT_DIR$/paff/line.py" />
     <entry file="file://$PROJECT_DIR$/PA/PA_5/BST_Test.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -858,24 +741,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_5/BSTmap.py">
+    <entry file="file://$PROJECT_DIR$/PA/PA_5/PA5mitt_joningi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="e#2100#2257#0" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/sortedcontainers/sorteddict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="103" column="33" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GSF/hlep.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/coffee.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/coffees.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/customers.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/projects.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/rentals.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/dw_10/CHECKMVD.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GSF/dw_10/DW10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GSF/GA_5/customer_MVD.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/GA_5/rentals_MVD.sql" />
+    <entry file="file://$PROJECT_DIR$/GSF/GA_5/MVD/projects_MVD.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GSF/GA_5/MVD/coffees_MVD.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Hlutaprof_3/solutions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="127" column="40" lean-forward="true" selection-start-line="127" selection-start-column="40" selection-end-line="127" selection-end-column="40" />
-          <folding>
-            <element signature="e#18#219#0" />
-            <element signature="e#273#2226#0" />
-          </folding>
+        <state relative-caret-position="124">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_5/BSTmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_array_deque.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_6/Sports.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Timi/Timi_19/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_3/DLL_base/DLL_base/dll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="105" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_6/UI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_6/Members.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GSF/GA_5/GA_5.sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
