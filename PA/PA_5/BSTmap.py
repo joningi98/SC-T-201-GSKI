@@ -63,12 +63,13 @@ class BSTMap:
         else:
             return self._contains(key, node.right)
 
-    def _print_inorder(self, node):
-        if node is None:
-            return None
-        self._print_inorder(node.left)
-        print("{}".format(node), end=' ')
-        self._print_inorder(node.right)
+    def _inorder(self, node):
+        my_str = ""
+        if node:
+            my_str += self._inorder(node.left)
+            my_str += str(node) + " "
+            my_str += self._inorder(node.right)
+        return my_str
 
     def _set_item(self, key, value, node):
         if key == node.key:
@@ -94,59 +95,11 @@ class BSTMap:
         if key > node.key:
             return self._get_item_helper(key, node.right)
 
-    def remove(self, key):
-        if self.contains(key):
-            node_before_target = self._find_target_to_remove(key, self.root)
-            self._remove_node(key, node_before_target)
+    def find_parent(self, parent, node):
+        if parent.left.key == node:
+            return parent
         else:
-            raise NotFoundException()
-
-    def _find_target_to_remove(self, key, node):
-        if key == node.left.key:
-            return node
-        if key == node.right.key:
-            return node
-        else:
-            if key < node.key:
-                return self._find_target_to_remove(key, node.left)
-            else:
-                return self._find_target_to_remove(key, node.right)
-
-    def _remove_node(self, key, node):
-        node_before_target = node
-        if key == node_before_target.left.key:
-            target = node_before_target.left
-            if target.left is None and target.right is None:
-                node_before_target.left = None
-            elif target.left and target.right is None:
-                node_before_target.left = target.left
-            elif target.left is None and target.right:
-                node_before_target.left = target.right
-            elif target.left and target.right:
-                node_to_swap = self._find_leftmost(target.right)
-                temp_key, temp_value = target.key, target.value
-                target.key = node_to_swap.key
-                target.value = node_to_swap.value
-                node_to_swap.key, node_to_swap.value = temp_key, temp_value
-                self.remove(node_to_swap.key)
-        elif key == node_before_target.right.key:
-            if node_before_target.right.right is None and node_before_target.right.left is None:
-                node_before_target.right = None
-            elif node_before_target.right.right and node_before_target.right.left is None:
-                node_before_target.right = node_before_target.right.right
-            elif node_before_target.right.right is None and node_before_target.right.left:
-                node_before_target.right = node_before_target.right.left
-            elif node_before_target.right.right and node_before_target.right.left:
-                node_to_swap = self._find_leftmost(node_before_target.right.right)
-                print(node_to_swap)
-                node_to_swap.right = node_before_target.right.right
-                node_before_target = node_to_swap
-
-    def _find_leftmost(self, node):
-        if node.left is None:
-            return node
-        else:
-            return self._find_leftmost(node.left)
+            self.find_parent(parent.left, node)
 
     def __getitem__(self, key):
         if self.contains(key):
@@ -154,22 +107,61 @@ class BSTMap:
         else:
             raise NotFoundException()
 
+    def _remove_right(self, key, node):
+        if node.right is None:
+            new_value = node.key
+            new_data = node.value
+            self.remove(node.key)
+            self.size -= 1
+            return new_value, new_data
+        elif node.right is not None:
+            self._remove_right(key, node.right)
+
+    def _remove(self, key, node):
+        if node is None:
+            return node
+        elif node.key is key:
+            if node.left is None and node.right is None:
+                return None
+            elif node.left is None or node.right is None:
+                if node.left is None:
+                    return node.right
+                elif node.right is None:
+                    return node.left
+            new_value, new_data = self._remove_right(key, node.left)
+            node.key = new_value
+            node.value = new_data
+            self.size -= 1
+            return node
+        elif node.key > key:
+            node.left = self._remove(key, node.left)
+            # self.size-=1
+            return node
+        elif node.key < key:
+            node.right = self._remove(key, node.right)
+            # self.size-=1
+            return node
+
+    def remove(self, key):
+        self._remove(key, self.root)
+
     def __len__(self):
         return self.size
 
     def __str__(self):
-        self._print_inorder(self.root)
-        return ""
+        return self._inorder(self.root)
 
 
-bst = BSTMap()
-bst.insert(8, "Eight")
-bst.insert(10, "Ten")
-bst.insert(3, "Three")
-bst.insert(7, "Seven")
-bst.insert(5, "Five")
-bst.insert(6, "Six")
-bst.insert(2, "Two")
-print(bst)
-bst.remove(3)
-print(bst)
+class MyComparableKey:
+    def __init__(self, value, strval):
+        self.int = value
+        self.string = strval
+
+    def __lt__(self, other):
+        if self.int < other.int:
+            return True
+        elif self.int == other.int:
+            if self.string < other.string:
+                return True
+        return False
+
