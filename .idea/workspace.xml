@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GSF/GA_5/GA_5.sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PA/PA_5/PA5mitt_joningi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PA/PA_6/Members.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PA/PA_6/Sports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PA/PA_6/UI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Timi/Timi_19/indexing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_2_recursion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GSF/CHECKFD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/GSF/dw_10/CHECKFD.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GSF/CHECKMVD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/GSF/dw_10/CHECKMVD.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GSF/DW10.py" beforeDir="false" afterPath="$PROJECT_DIR$/GSF/dw_10/DW10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PA/PA_5/BSTmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/PA/PA_5/BSTmap.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +15,31 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$compare_output.coverage" NAME="compare_output Coverage Results" MODIFIED="1549299301209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$1.coverage" NAME="1 Coverage Results" MODIFIED="1547070508664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$binary_tree__1_.coverage" NAME="binary_tree (1) Coverage Results" MODIFIED="1552995202410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_14" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$multiplication.coverage" NAME="multiplication Coverage Results" MODIFIED="1547560639883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$BSTmap.coverage" NAME="BSTmap Coverage Results" MODIFIED="1553713194232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_5" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$array_remove.coverage" NAME="array_remove Coverage Results" MODIFIED="1555153458317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_key_tests.coverage" NAME="hash_key_tests Coverage Results" MODIFIED="1552328569736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$power.coverage" NAME="power Coverage Results" MODIFIED="1547560088295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Members.coverage" NAME="Members Coverage Results" MODIFIED="1553769073331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_6" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_array_deque.coverage" NAME="my_array_deque Coverage Results" MODIFIED="1550493981607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_map_tests.coverage" NAME="hash_map_tests Coverage Results" MODIFIED="1552327061770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$sum_of_list.coverage" NAME="sum_of_list Coverage Results" MODIFIED="1548926585881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1552940533616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prep_for_test/Test_3" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_create_tests.coverage" NAME="main_create_tests Coverage Results" MODIFIED="1549280281197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$indexing.coverage" NAME="indexing Coverage Results" MODIFIED="1553619143061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_19" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$array_list.coverage" NAME="array_list Coverage Results" MODIFIED="1555151968252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/PA/PA_1/ArrayListBase/ArrayListBase" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordered_insertion.coverage" NAME="ordered_insertion Coverage Results" MODIFIED="1547583157169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1550353209923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListBase" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_linked_list.coverage" NAME="my_linked_list Coverage Results" MODIFIED="1550403354419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$random.coverage" NAME="random Coverage Results" MODIFIED="1547561041155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1550362511136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_7" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$chess.coverage" NAME="chess Coverage Results" MODIFIED="1552665679832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paff" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$line.coverage" NAME="line Coverage Results" MODIFIED="1552667482367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paff" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_program.coverage" NAME="main_program Coverage Results" MODIFIED="1549305626363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/PrefixParserBase" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$part_2_recursion.coverage" NAME="part_2_recursion Coverage Results" MODIFIED="1555150615638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$tests.coverage" NAME="tests Coverage Results" MODIFIED="1550494502657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$multiplication.coverage" NAME="multiplication Coverage Results" MODIFIED="1547560639883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$recursive_average.coverage" NAME="recursive_average Coverage Results" MODIFIED="1555152849234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P1" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$bst_map_tests.coverage" NAME="bst_map_tests Coverage Results" MODIFIED="1552928608287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_5" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$BSTmap.coverage" NAME="BSTmap Coverage Results" MODIFIED="1553713194232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_5" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$GA_5_sql__1_.coverage" NAME="GA_5.sql (1) Coverage Results" MODIFIED="1553711806006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GSF/GA_5" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$GA_5_sql.coverage" NAME="GA_5.sql Coverage Results" MODIFIED="1553631315952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GSF" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$mine.coverage" NAME="mine Coverage Results" MODIFIED="1552666723803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paff" />
@@ -37,36 +47,21 @@
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_code.coverage" NAME="hash_code Coverage Results" MODIFIED="1552328914991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/TImi_16" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Tile_Traveler.coverage" NAME="Tile_Traveler Coverage Results" MODIFIED="1547556895712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$swithc.coverage" NAME="swithc Coverage Results" MODIFIED="1547566297230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
+    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$test_main_part2_rec.coverage" NAME="test_main_part2_rec Coverage Results" MODIFIED="1555082959733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$natural.coverage" NAME="natural Coverage Results" MODIFIED="1548934233605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_key_tests.coverage" NAME="hash_key_tests Coverage Results" MODIFIED="1552328569736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$list_print.coverage" NAME="list_print Coverage Results" MODIFIED="1547561929917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$power.coverage" NAME="power Coverage Results" MODIFIED="1547560088295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Members.coverage" NAME="Members Coverage Results" MODIFIED="1553769073331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_6" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_array_deque.coverage" NAME="my_array_deque Coverage Results" MODIFIED="1550493981607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$dynamic_arr.coverage" NAME="dynamic_arr Coverage Results" MODIFIED="1548927682085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/part_3" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ADT_Bucket.coverage" NAME="ADT_Bucket Coverage Results" MODIFIED="1552328290239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$double_ended_queue.coverage" NAME="double-ended_queue Coverage Results" MODIFIED="1550135655920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_8" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$hash_map_tests.coverage" NAME="hash_map_tests Coverage Results" MODIFIED="1552327061770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_4" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$sum_of_list.coverage" NAME="sum_of_list Coverage Results" MODIFIED="1548926585881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_stack.coverage" NAME="my_stack Coverage Results" MODIFIED="1550424612390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$binary_tree.coverage" NAME="binary_tree Coverage Results" MODIFIED="1552940533616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prep_for_test/Test_3" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$2.coverage" NAME="2 Coverage Results" MODIFIED="1548924009790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structures and Algorithms in Python/Chapter_1" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_create_tests.coverage" NAME="main_create_tests Coverage Results" MODIFIED="1549280281197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$heat.coverage" NAME="heat Coverage Results" MODIFIED="1552665075066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paff" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$array_list.coverage" NAME="array_list Coverage Results" MODIFIED="1549304492270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$indexing.coverage" NAME="indexing Coverage Results" MODIFIED="1553619143061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_19" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordered_insertion.coverage" NAME="ordered_insertion Coverage Results" MODIFIED="1547583157169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$Deque.coverage" NAME="Deque Coverage Results" MODIFIED="1550431719456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_6" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$solutions.coverage" NAME="solutions Coverage Results" MODIFIED="1553004064829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof_3" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$change_ix.coverage" NAME="change_ix Coverage Results" MODIFIED="1547562881610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$ordering.coverage" NAME="ordering Coverage Results" MODIFIED="1547588241680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1550353209923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListBase" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$palindrome.coverage" NAME="palindrome Coverage Results" MODIFIED="1550512005146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/PalindromeBase" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$my_linked_list.coverage" NAME="my_linked_list Coverage Results" MODIFIED="1550403354419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_2/QueueStackBase" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$random.coverage" NAME="random Coverage Results" MODIFIED="1547561041155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_2" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$the_zoo.coverage" NAME="the_zoo Coverage Results" MODIFIED="1548931792116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test/Hlutaprof/Part_4" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$linked_list.coverage" NAME="linked_list Coverage Results" MODIFIED="1550362511136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Timi/Timi_7" />
-    <SUITE FILE_PATH="coverage/SC_T_201_GSKI$chess.coverage" NAME="chess Coverage Results" MODIFIED="1552665679832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/paff" />
     <SUITE FILE_PATH="coverage/SC_T_201_GSKI$main_test__1_.coverage" NAME="main_test (1) Coverage Results" MODIFIED="1549299294499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests" />
   </component>
   <component name="DatabaseView">
@@ -146,15 +141,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="140" />
+          <entry key="py" value="151" />
           <entry key="sql" value="19" />
-          <entry key="txt" value="23" />
+          <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="139" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="150" />
           <entry key="SQL" value="19" />
           <entry key="UML" value="1" />
         </counts>
@@ -163,13 +158,13 @@
         <counts>
           <entry key="Python Console" value="77" />
           <entry key="dummy" value="26" />
-          <entry key="py" value="42309" />
+          <entry key="py" value="45038" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="42386" />
+          <entry key="Python" value="45115" />
         </counts>
       </usages-collector>
     </session>
@@ -214,7 +209,17 @@
     <favorites_list name="SC-T-201-GSKI" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -237,12 +242,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PA/PA_1/ArrayListBase/array_list.py" />
-        <option value="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_create_tests.py" />
-        <option value="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py" />
-        <option value="$PROJECT_DIR$/Timi/Timi_5/merge_sort.py" />
-        <option value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase (1)/PrefixParserBase/main_program.py" />
-        <option value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/tokenizer.py" />
         <option value="$PROJECT_DIR$/PA/PA_1/PrefixParserBase/main_program.py" />
         <option value="$PROJECT_DIR$/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_8/dubleended_queue.py" />
@@ -288,6 +287,12 @@
         <option value="$PROJECT_DIR$/PA/PA_6/UI.py" />
         <option value="$PROJECT_DIR$/PA/PA_6/Sports.py" />
         <option value="$PROJECT_DIR$/PA/PA_6/Members.py" />
+        <option value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion/solutions.py" />
+        <option value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion/test_main_part2_rec.py" />
+        <option value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_2_recursion.py" />
+        <option value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py" />
+        <option value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P1/recursive_average.py" />
+        <option value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py" />
       </list>
     </option>
   </component>
@@ -320,7 +325,28 @@
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="Finals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
+              <item name="Finals" type="462c0819:PsiDirectoryNode" />
+              <item name="PracticeExam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
+              <item name="Finals" type="462c0819:PsiDirectoryNode" />
+              <item name="PracticeExam" type="462c0819:PsiDirectoryNode" />
+              <item name="PracticeExam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
+              <item name="Finals" type="462c0819:PsiDirectoryNode" />
+              <item name="PracticeExam" type="462c0819:PsiDirectoryNode" />
+              <item name="PracticeExam" type="462c0819:PsiDirectoryNode" />
+              <item name="P2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,18 +365,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\MVD" />
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\FD" />
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5" />
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\dw_10" />
-      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Test\Hlutaprof_3" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_5" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Test\Hlutaprof_3" />
       <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\PA\PA_4" />
       <recent name="C:\Users\Jón Ingi Ólafsson\Documents\GitHub\SC-T-201-GSKI\PA\PA_4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Finals" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Finals\Practice_exam" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\Finals\Hlutaprof1_solutions\PA\PA_1" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\MVD" />
+      <recent name="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\FD" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -365,8 +391,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Members">
-    <configuration name="BSTmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.array_remove">
+    <configuration name="array_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,12 +400,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/PA/PA_1/ArrayListBase/ArrayListBase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_5/BSTmap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -388,7 +414,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GA_5.sql (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="array_remove" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -396,12 +422,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GSF/GA_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GSF/GA_5/GA_5.sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -410,7 +436,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GA_5.sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="part_2_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -418,12 +444,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GSF" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Jón Ingi\Documents\GitHub\SC-T-201-GSKI\GSF\GA_5\GA_5.sql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_2_recursion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -432,7 +458,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Members" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="recursive_average" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -440,12 +466,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_6/Members.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P1/recursive_average.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -454,7 +480,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="indexing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_main_part2_rec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -462,12 +488,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Timi/Timi_19" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Timi/Timi_19/indexing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion/test_main_part2_rec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -477,19 +503,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.BSTmap" />
-      <item itemvalue="Python.indexing" />
-      <item itemvalue="Python.GA_5.sql" />
-      <item itemvalue="Python.GA_5.sql (1)" />
-      <item itemvalue="Python.Members" />
+      <item itemvalue="Python.test_main_part2_rec" />
+      <item itemvalue="Python.part_2_recursion" />
+      <item itemvalue="Python.array_list" />
+      <item itemvalue="Python.recursive_average" />
+      <item itemvalue="Python.array_remove" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Members" />
-        <item itemvalue="Python.BSTmap" />
-        <item itemvalue="Python.GA_5.sql (1)" />
-        <item itemvalue="Python.GA_5.sql" />
-        <item itemvalue="Python.indexing" />
+        <item itemvalue="Python.array_remove" />
+        <item itemvalue="Python.recursive_average" />
+        <item itemvalue="Python.array_list" />
+        <item itemvalue="Python.part_2_recursion" />
+        <item itemvalue="Python.test_main_part2_rec" />
       </list>
     </recent_temporary>
   </component>
@@ -517,8 +543,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.1130064" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -538,7 +565,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" weight="0.23880596" />
+      <window_info active="true" anchor="right" id="Run" order="5" visible="true" weight="0.25479743" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.09008529" />
@@ -587,6 +614,11 @@
           <line>26</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion/test_main_part2_rec.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -606,29 +638,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PA/PA_4/test.py" />
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/PalindromeBase/palindrome.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1229">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_stack.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/main_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/array_list.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/codecs.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
@@ -846,6 +855,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion/test_main_part2_rec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_2_recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion/solutions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P1/recursive_average_expected_out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P1/recursive_average.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
