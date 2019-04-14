@@ -54,3 +54,13 @@ f = open("prefix_statements.txt", "r")
 for line in f:
     test_prefix_parser(line)
 f.close()
+
+
+def __str__(self):
+    ret_str = ""
+    if self.left is not None:
+        ret_str += str(self.left)
+    ret_str += str(self.value) + " "
+    if self.right is not None:
+        ret_str += str(self.right)
+    return ret_str
