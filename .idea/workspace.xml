@@ -2,17 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_3_dynamicArray.py" line="18" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136c75f1-cf45-4e11-8391-faa2ad86cb94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/array_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_3_dynamicArray.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P3/bst_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P3/bst_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P4/bucket.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P4/bucket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P4/hash_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P4/hash_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P5/auto_key.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P5/auto_key.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Finals/PA/PA_1/PrefixParserBase/PrefixParserBase/main_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Finals/PA/PA_1/PrefixParserBase/PrefixParserBase/main_program.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +176,7 @@
     <session id="-2147398864">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -190,26 +186,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="45" />
+          <entry key="py" value="53" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="45" />
+          <entry key="Python" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="13414" />
+          <entry key="py" value="15112" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="13414" />
+          <entry key="Python" value="15112" />
         </counts>
       </usages-collector>
     </session>
@@ -218,19 +214,7 @@
     <favorites_list name="SC-T-201-GSKI" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/PrefixParserBase/PrefixParserBase/main_program.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -253,8 +237,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Timi/Timi_7/linked_list.py" />
-        <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_queue.py" />
         <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_stack.py" />
         <option value="$PROJECT_DIR$/Timi/Timi_6/Deque.py" />
         <option value="$PROJECT_DIR$/PA/PA_2/QueueStackBase/my_array_deque.py" />
@@ -304,6 +286,8 @@
         <option value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P4/hash_map.py" />
         <option value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P5/auto_key.py" />
         <option value="$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py" />
+        <option value="$PROJECT_DIR$/Finals/PA/PA_1/PrefixParserBase/PrefixParserBase/main_program.py" />
+        <option value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_3_dynamicArray.py" />
       </list>
     </option>
   </component>
@@ -314,7 +298,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -343,48 +327,29 @@
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
               <item name="Finals" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof1_solutions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
               <item name="Finals" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof1_solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
               <item name="Finals" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_1" type="462c0819:PsiDirectoryNode" />
-              <item name="PrefixParserBase" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof1_solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof1_solutions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
               <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
               <item name="Finals" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_1" type="462c0819:PsiDirectoryNode" />
-              <item name="PrefixParserBase" type="462c0819:PsiDirectoryNode" />
-              <item name="PrefixParserBase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="Finals" type="462c0819:PsiDirectoryNode" />
-              <item name="PracticeExam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SC-T-201-GSKI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SC-T-201-GSKI" type="462c0819:PsiDirectoryNode" />
-              <item name="PA" type="462c0819:PsiDirectoryNode" />
-              <item name="PA_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof1_solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Hlutaprof1_solutions" type="462c0819:PsiDirectoryNode" />
+              <item name="Part3_arrays" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -429,7 +394,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.array_list">
+  <component name="RunManager" selected="Python.part_3_dynamicArray">
     <configuration name="array_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -443,28 +408,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="array_remove" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SC-T-201-GSKI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -515,7 +458,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="part_2_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SC-T-201-GSKI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -523,11 +466,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PA/PA_1/ArrayListBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PA/PA_1/ArrayListBase/main_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_2_recursion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="part_3_dynamicArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SC-T-201-GSKI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_3_dynamicArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -537,19 +501,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.array_remove" />
-      <item itemvalue="Python.main_test" />
       <item itemvalue="Python.bst_set" />
       <item itemvalue="Python.hash_map" />
       <item itemvalue="Python.array_list" />
+      <item itemvalue="Python.part_2_recursion" />
+      <item itemvalue="Python.part_3_dynamicArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.part_3_dynamicArray" />
+        <item itemvalue="Python.part_2_recursion" />
         <item itemvalue="Python.array_list" />
         <item itemvalue="Python.hash_map" />
         <item itemvalue="Python.bst_set" />
-        <item itemvalue="Python.main_test" />
-        <item itemvalue="Python.array_remove" />
       </list>
     </recent_temporary>
   </component>
@@ -577,9 +541,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.15191898" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.15191898" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info id="Favorites" order="2" sideWeight="0.5010846" side_tool="true" weight="0.104477614" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -590,7 +553,7 @@
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.28958786" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3275488" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" visible="true" weight="0.20932755" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.36117136" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.329718" />
@@ -599,7 +562,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.1913646" />
+      <window_info anchor="right" id="Run" order="5" weight="0.30277187" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.09008529" />
@@ -672,30 +635,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Timi/Timi_15/PriorityQueue_ADT.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Prep_for_test/Test_3/priorityTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Timi/TImi_16/hash_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="187" column="65" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Timi/Timi_14/binary_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -808,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_2_recursion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part2_recursion/solutions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-316">
@@ -845,13 +777,6 @@
     <entry file="file://$PROJECT_DIR$/PA/PA_1/ArrayListBase/expected_output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-89" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P3/bst_set.py">
@@ -920,11 +845,6 @@
         <state relative-caret-position="-1376" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/array_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2362" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/ArrayListBase/array_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
@@ -940,11 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListTests/ArrayListTests/main_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -956,10 +871,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/PrefixParserBase/PrefixParserBase/main_program.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="443">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PA/PA_4/ADT_Bucket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="187" column="65" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_2_recursion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListBase/array_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/ArrayListTests/ArrayListTests/array_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PracticeExam/PracticeExam/P2/array_remove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1_solutions/Part3_arrays/solutions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/Hlutaprof1_solutions/Hlutaprof1/part_3_dynamicArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <marker date="1555284121709" expanded="true" signature="19:24" ph="..." />
+            <marker date="1555284121709" expanded="true" signature="166:372" ph="..." />
+            <marker date="1555284121709" expanded="true" signature="406:616" ph="..." />
+            <marker date="1555284121709" expanded="true" signature="905:1021" ph="..." />
+            <marker date="1555284121709" expanded="true" signature="1048:1209" ph="..." />
+            <marker date="1555284121709" expanded="true" signature="1365:1371" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Finals/PA/PA_1/PrefixParserBase/PrefixParserBase/tokenizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
