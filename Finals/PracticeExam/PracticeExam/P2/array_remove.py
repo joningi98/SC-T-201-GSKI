@@ -19,9 +19,11 @@ class ArrayList:
 
     # IMPLEMENT THIS
     def remove(self, index):
-        for ix in range(self.size - 1, index - 1, -1):
-            print(ix)
-            self.arr[ix] = self.arr[ix]
+        new_arr = [x for x in self.arr]
+        for ix in range(self.size - 1, index - 2, -1):
+            new_arr[ix] = self.arr[ix + 1]
+        self.arr = new_arr
+        self.size -= 1
 
     def __str__(self):
         ret_str = ""

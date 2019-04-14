@@ -1,10 +1,11 @@
-import tokenizer
-from tokenizer import Tokenizer
+from Finals.PA.PA_1.PrefixParserBase.PrefixParserBase.tokenizer import *
+
 
 # throw/raise this exception if a
 # division by zero occurs.
 class DivisionByZero(Exception):
     pass
+
 
 # IMPLEMENT HERE!!!! -----------------------------------------------------
 # This function is the actual recursive
@@ -17,6 +18,7 @@ def prefix_parser_recursive(tokenizer):
     # print(token) # debug line
     return 0
 
+
 # This function makes the tokenizer
 # and then calls the recursive function.
 # It is often necessary to make a separate
@@ -26,6 +28,7 @@ def prefix_parser_recursive(tokenizer):
 def prefix_parser(str_statement):
     tokenizer = Tokenizer(str_statement)
     return prefix_parser_recursive(tokenizer)
+
 
 # This is a tester function to test that
 # the output and/or error message from the
@@ -37,6 +40,7 @@ def test_prefix_parser(str_statement):
     except DivisionByZero:
         str_print += ": " + str("A division by zero occurred")
     print(str_print)
+
 
 # A few hard coded tests
 test_prefix_parser("+ 3 20")

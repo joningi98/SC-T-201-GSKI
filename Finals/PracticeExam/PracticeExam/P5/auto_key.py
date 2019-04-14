@@ -1,9 +1,8 @@
-
 class AutoKeyContainer:
     pass
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     # ALWAYS MAKE BETTER TESTS!!
 
     auto_key_container = AutoKeyContainer()
@@ -23,7 +22,7 @@ if __name__ == "__main__":
     print(auto_key_container.get(key1))
 
     auto_key_container.remove(key4)
-    
+
     print("")
     print(auto_key_container.get(key3))
     print(auto_key_container.get(key2))
@@ -31,5 +30,4 @@ if __name__ == "__main__":
     print(auto_key_container.get(key4))
     print(auto_key_container.get(key1))
 
-    
     auto_key_container.remove(key4)

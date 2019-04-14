@@ -1,20 +1,23 @@
 class NotFoundException(Exception):
     pass
 
+
 class ItemExistsException(Exception):
     pass
 
+
 class Node:
-    def __init__(self, key, data, next = None):
+    def __init__(self, key, data, next=None):
         self.key = key
         self.data = data
         self.next = next
+
 
 class Bucket:
     def __init__(self):
         self.head = None
         self.size = 0
-    
+
     def _find_node(self, key):
         node = self.head
         while node != None:
@@ -48,7 +51,7 @@ class Bucket:
             return False
 
     def _remove(self, key, node):
-        if node == None:
+        if node is None:
             raise NotFoundException()
         if node.key == key:
             return node.next
