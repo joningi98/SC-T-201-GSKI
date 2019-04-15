@@ -1,7 +1,4 @@
-from Finals.Hlutaprof1_solutions.Hlutaprof1_solutions.Part2_recursion.solutions import *
-
-import sys
-
+from Finals.Hlutaprof1_solutions.Hlutaprof1.Hlutaprof1_solutions.Part2_recursion.solutions import *
 
 print(natural_fb(6))
 print(natural_fb(3))

@@ -67,4 +67,3 @@ my_arr.prepend("HELLOO")
 my_arr.print_list()
 my_arr.remove_first()
 my_arr.print_list()
-
