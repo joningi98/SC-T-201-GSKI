@@ -37,6 +37,12 @@ class BSTSet:
                 node = node.right
         return False
 
+    def find_next_left_most(self, node):
+        if node.left.left is None:
+            return node
+        else:
+            return self.find_next_left_most(node.left)
+
     def find_left_most(self, node):
         if node.left is None:
             return node
@@ -59,17 +65,12 @@ class BSTSet:
         if node.left is None and node.right:
             return node.right
         if node.left and node.right:
-            if self.is_leaf(node.left) or not self.is_leaf(node.right):
-                node_to_switch = self.find_left_most(node)
-                target = node.value
-                switch = node_to_switch.value
-                node_to_switch.value = target
-                node.value = switch
-                node_to_switch = self._remove_node(node_to_switch)
-                print(node.left)
-                return node
-            else:
-                return self.find_left_most(node.right)
+            node_to_switch = self.find_left_most(node.right)
+            temp_value = node_to_switch.value
+            node_to_switch.value = node.value
+            node.value = temp_value
+            node = self._remove(node_to_switch.value, node)
+            return node
 
     def _remove(self, value, node):
         if node is not None:

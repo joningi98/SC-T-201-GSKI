@@ -15,7 +15,21 @@ class DivisionByZero(Exception):
 # throughout the recursive run.
 def prefix_parser_recursive(tokenizer):
     token = tokenizer.get_next_token()
-    # print(token) # debug line
+    if token.isdigit():
+        return int(token)
+    if token == "+":
+        return prefix_parser_recursive(tokenizer) + prefix_parser_recursive(tokenizer)
+    if token == "-":
+        return prefix_parser_recursive(tokenizer) - prefix_parser_recursive(tokenizer)
+    if token == "/":
+        first = prefix_parser_recursive(tokenizer)
+        last = prefix_parser_recursive(tokenizer)
+        if last == 0:
+            raise DivisionByZero
+        else:
+            return first / last
+    if tokenizer == "*":
+        return prefix_parser_recursive(tokenizer) * prefix_parser_recursive(tokenizer)
     return 0
 
 
