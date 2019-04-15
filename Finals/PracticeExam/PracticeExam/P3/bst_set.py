@@ -37,39 +37,24 @@ class BSTSet:
                 node = node.right
         return False
 
-    def find_next_left_most(self, node):
-        if node.left.left is None:
-            return node
-        else:
-            return self.find_next_left_most(node.left)
-
-    def find_left_most(self, node):
+    def _swap_and_remove_node(self, original_node, node):
         if node.left is None:
+            original_node.value = node.value
+            return self._remove_node(node)
+        else:
+            node.left = self._swap_and_remove_node(original_node, node.left)
             return node
-        else:
-            return self.find_left_most(node.left)
-
-    @staticmethod
-    def is_leaf(node):
-        if node.left is None and node.right is None:
-            return True
-        else:
-            return False
 
     # IMPLEMENT THIS
     def _remove_node(self, node):
         if node.left is None and node.right is None:
             return None
-        if node.left and node.right is None:
+        elif node.left and node.right is None:
             return node.left
-        if node.left is None and node.right:
+        elif node.left is None and node.right:
             return node.right
         else:
-            node_to_swap = self.find_left_most(node.right)
-            target_value = node_to_swap.value
-            node_to_swap.value = node.value
-            node.value = target_value
-            self._remove_node(node_to_swap)
+            node.right = self._swap_and_remove_node(node, node.right)
             return node
 
     def _remove(self, value, node):
@@ -119,21 +104,21 @@ if __name__ == "__main__":
     bst_set.add(12)
     print(bst_set)
 
-    # bst_set.remove(11)
-    # print(bst_set)
+    bst_set.remove(11)
+    print(bst_set)
 
     bst_set.remove(10)
     print(bst_set)
-    # bst_set.remove(8)
-    # print(bst_set)
-    # bst_set.remove(2)
-    # print(bst_set)
-    # bst_set.remove(7)
-    # print(bst_set)
-    # bst_set.remove(5)
-    # print(bst_set)
-    # bst_set.remove(9)
-    # print(bst_set)
-    # bst_set.remove(3)
-    # print(bst_set)
+    bst_set.remove(8)
+    print(bst_set)
+    bst_set.remove(2)
+    print(bst_set)
+    bst_set.remove(7)
+    print(bst_set)
+    bst_set.remove(5)
+    print(bst_set)
+    bst_set.remove(9)
+    print(bst_set)
+    bst_set.remove(3)
+    print(bst_set)
 

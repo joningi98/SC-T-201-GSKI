@@ -1,6 +1,5 @@
 class BinaryNode:
-    def __init__(self, key, data=None, left=None, right=None):
-        self.key = key
+    def __init__(self, data=None, left=None, right=None):
         self.data = data
         self.left = left
         self.right = right
@@ -14,84 +13,78 @@ class BST:
         self.root = None
         self.size = 0
 
-    def _insert(self, node, key, value):
-        if key < node.key:
+    def _insert(self, node, value):
+        if value < node.data:
             if node.left:
-                self._insert(node.left, key, value)
+                self._insert(node.left, value)
             else:
-                node.left = BinaryNode(key, value)
-        if key > node.key:
+                node.left = BinaryNode(value)
+        if value > node.data:
             if node.right:
-                self._insert(node.right, key, value)
+                self._insert(node.right, value)
             else:
-                node.right = BinaryNode(key, value)
+                node.right = BinaryNode(value)
         return
 
-    def insert(self, key, value):
+    def insert(self, value):
         if self.root is None:
-            self.root = BinaryNode(key, value)
+            self.root = BinaryNode(value)
         else:
             self.size += 1
-            self._insert(self.root, key, value)
+            self._insert(self.root, value)
 
-    def _find(self, node, key, ret_node=False):
+    def _find(self, node, value, ret_node=False):
         if node is None:
             return False
-        elif node.key == key:
+        elif node.data == value:
             if ret_node:
                 return node
             else:
                 return True
         else:
-            if key < node.key:
-                return self._find(node.left, key)
-            elif key > node.key:
-                return self._find(node.right, key)
+            if value < node.data:
+                return self._find(node.left, value)
+            elif value > node.data:
+                return self._find(node.right, value)
 
-    def find(self, key, ret_node=False):
-        return self._find(self.root, key, ret_node)
+    def find(self, value, ret_node=False):
+        return self._find(self.root, value, ret_node)
 
-    def swap_and_remove_leftmost(self, original_node, node):
+    def _swap_and_remove_node(self, original_node, node):
         if node.left is None:
-
+            original_node.data = node.data
+            return self._remove_node(node)
+        else:
+            node.left = self._swap_and_remove_node(original_node, node.left)
+            return node
 
     def _remove_node(self, node):
         if node.left is None and node.right is None:
             return None
-        if node.left and node.right is None:
+        elif node.left and node.right is None:
             return node.left
-        if node.left is None and node.right:
+        elif node.left is None and node.right:
             return node.right
         else:
-            node.right = self.swap_and_remove_leftmost(node, node.right)
+            node.right = self._swap_and_remove_node(node, node.right)
+            return node
 
+    def _remove(self, node, value):
+        if node is not None:
+            if value < node.data:
+                node.left = self._remove(node.left, value)
+            elif value > node.data:
+                node.right = self._remove(node.right, value)
+            else:
+                self.size -= 1
+                return self._remove_node(node)
+        return node
 
-    def _remove(self, node, key):
-        if key < node.key:
-            return self._remove(node.left, key)
-        if key > node.key:
-            return self._remove(node.right, key)
+    def remove(self, value):
+        if self.find(value):
+            self.root = self._remove(self.root, value)
         else:
-            return self._remove_node(node)
-
-
-    def remove(self, key):
-        if self[key]:
-            self.root = self._remove(self.root, key)
-        else:
-            return None
-
-    def __setitem__(self, key, value):
-        if self.find(key, True):
-            self[key].data = value
-        else:
-            self.insert(key, value)
-
-    def __getitem__(self, value):
-        if self.find(value, True):
-            return self.find(value, True)
-        else:
-            return None
+            pass
 
     def preorder(self, node):
         my_str = ""
@@ -121,11 +114,4 @@ class BST:
         return "Pre-order:\n{}\nIn-order:\n{}\nPost-order:\n{}".format(self.preorder(self.root), self.inorder(self.root), self.postorder(self.root))
 
 
-bst = BST()
 
-bst.insert(5, "Number 5")
-bst.insert(4, "Number 4")
-bst.insert(3, "Number 3")
-bst.insert(8,  "Number 8")
-bst.insert(1, "Number 1")
-bst.insert(10, "Number 10")
